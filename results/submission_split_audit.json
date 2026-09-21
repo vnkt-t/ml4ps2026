@@ -1,0 +1,478 @@
+{
+  "declared_training_data_seed": 0,
+  "experiment": "frozen_checkpoint_split_audit",
+  "input_and_source_hashes_unchanged": true,
+  "input_sha256": {
+    "results/checkpoints/fno_kappa100_seed0.json": "5b5a82563a9e3eca3456926fa1ae4b624a501907f498b529b84e596e777a3be4",
+    "results/checkpoints/fno_kappa100_seed0.pt": "e3298ee4c692c5a616df80f14a4b3ff4a6f2940c9a736ead807ec53fe414758f",
+    "results/checkpoints/fno_kappa100_seed1.json": "99f56a2aa1b0fa33ed23031dbcfa01c32e8036c8ae06922ae6f77499f1f756e3",
+    "results/checkpoints/fno_kappa100_seed1.pt": "65cb244a304923135d35ed70d17e53c8387d3801f893b08ab984f7e3fbafa5c6",
+    "results/checkpoints/fno_kappa100_seed2.json": "e115b745c1d0c4c1e1475bc7c76ed873c0c784c2690e64f671fd8e670690d9dd",
+    "results/checkpoints/fno_kappa100_seed2.pt": "fb2d401cfeceb31d605162b9fd0aa2b11efda9bb313d416fee9ce3a50003e3a1",
+    "results/checkpoints/fno_kappa10_seed0.json": "2cb437c00f3f47a6aac5b9586a413cfdc0d46c7b50c3017200cc13f59748b3cd",
+    "results/checkpoints/fno_kappa10_seed0.pt": "5eab02769a166cc884767637c084f778ee429df3f4a9379efb3cfcfe4e797a0f",
+    "results/checkpoints/fno_kappa10_seed1.json": "4a8129f53fd2e289e31ee01b116b8f7cd817a3d35eb6fa960766da58dea938da",
+    "results/checkpoints/fno_kappa10_seed1.pt": "3907d39e05c4b58c8acf8b7b689243f3ffb81810fd76807f8beaa4ad51ea4f3b",
+    "results/checkpoints/fno_kappa10_seed2.json": "86a95c1291a9aa7c6390c24a4cd7845a6d34e93a29db8d6152fa6a22c8057da2",
+    "results/checkpoints/fno_kappa10_seed2.pt": "837d62a24fad18c577210b7a1c80adfbfd8e8b7b4e6266917d3e8f46c03974c0",
+    "results/checkpoints/fno_kappa500_seed0.json": "805829fe3a5a481ff0ffdab69541a69f5fb6aa8f31829c80d0fe7a79c1f41d6c",
+    "results/checkpoints/fno_kappa500_seed0.pt": "0f4c9b622c67b497efe337d8f4fd816066c15709bc6b9446eb3a946b4fbefcf8",
+    "results/checkpoints/fno_kappa500_seed1.json": "950c0b1cf1cd97dd9e6ddd29a8f7dba318207cababbd87307fb85f7d05de4e8b",
+    "results/checkpoints/fno_kappa500_seed1.pt": "b690cd3750e792fd6f4e6ac8907353ca8bf48a33581efd7d3647f95b4bbb0377",
+    "results/checkpoints/fno_kappa500_seed2.json": "e298c35b29dd3e5e07db8677e3a2850d344ef948c6ad743fc1a8156c37818f2f",
+    "results/checkpoints/fno_kappa500_seed2.pt": "89cd17498a8b4944a4fa0934db2c67664c535ddab9f95c33c61407d0230bcf13",
+    "results/checkpoints_64/fno_kappa100_seed0.json": "5471a1bb4624b0fba605ac1027660579fff3e694a2fa995a18e2815999624470",
+    "results/checkpoints_64/fno_kappa100_seed0.pt": "2f2de13ed9d307d381465f511d28187f65a25b631cf0f5f2311e202ee44081a9",
+    "results/checkpoints_64/fno_kappa100_seed1.json": "fa39ce8fcc5b397e948f7d617f829a434cedd382d6a86ae3c92d34dddf5330d7",
+    "results/checkpoints_64/fno_kappa100_seed1.pt": "41dd01a942fed39b1a29954c5844081e6211347714c5d89d1937542af167eccc",
+    "results/checkpoints_64/fno_kappa100_seed2.json": "084383aca230550b30926c86bea19b597e9d4e721e07304740a9a40de1481e61",
+    "results/checkpoints_64/fno_kappa100_seed2.pt": "c03dfe1bcfb4bb68abe3f9e94ad3266c4026f1266d3bc2aad0901d9c1c513fd1",
+    "results/checkpoints_64/fno_kappa10_seed0.json": "d6bc6edd7af6862a95fb1e9233bdf671a4f99869439bddc952b810b153507abd",
+    "results/checkpoints_64/fno_kappa10_seed0.pt": "beacd6b487c1bf083ff0a2b92008588fd100fe9232a1b6300f2aab515765efd4",
+    "results/checkpoints_64/fno_kappa10_seed1.json": "35314843916d27f2e53fbc3ab45e5a9605b47088b321a63f08ff378deb15b6f4",
+    "results/checkpoints_64/fno_kappa10_seed1.pt": "e216db35a9d9c15bbcb01518a016264af7a108950f16d21b160d032a32281193",
+    "results/checkpoints_64/fno_kappa10_seed2.json": "adda4e8ee64a84aeafe00388249ceb28bea999b09677fae52cf1b65db692b3e2",
+    "results/checkpoints_64/fno_kappa10_seed2.pt": "63763e2f3590b1e26019af9778dae2de584bdc1d95be2a08f86a9ba7e5ae2b05",
+    "results/checkpoints_64/fno_kappa500_seed0.json": "13a7de07b0aa5ce8e0439c6381790169da7c4346cbdd4e7c348745434b92ceb3",
+    "results/checkpoints_64/fno_kappa500_seed0.pt": "0a281d648d0896e3ec3054dc9ff6356e8af58483a4bfac764ad8a49b6f5db7eb",
+    "results/checkpoints_64/fno_kappa500_seed1.json": "832201b7f8453fc707508f1a9f52696f08538e5539b5839fe358520587eecf52",
+    "results/checkpoints_64/fno_kappa500_seed1.pt": "976d0504a12b81a1dfbb0bd3a518dde025db13169df250f33925a53b449ca2e9",
+    "results/checkpoints_64/fno_kappa500_seed2.json": "5cef3900bf398892303726efb4e9f1ec7a8e90499b91e46fce611b3e14779d39",
+    "results/checkpoints_64/fno_kappa500_seed2.pt": "5fb4e2e0463961ab7b4676a40a59ac7e92d0089f9ae32c53dcd16ce0e4f77bb8",
+    "results/checkpoints_longtrain/fno_kappa100_seed0.json": "d8d8127acff486ef4f55f5191ce1ad18aa0d43db850806a9b270ef56df423129",
+    "results/checkpoints_longtrain/fno_kappa100_seed0.pt": "ab5ec71c5ddd0224e28a8e4c45e7d55627bf69214b05de974b648269e05e2560",
+    "results/checkpoints_longtrain/fno_kappa100_seed1.json": "a3a8bc62ee54107a7b164cc3afe53ff2f4bec9e9baec6a397664a3d191ea9f80",
+    "results/checkpoints_longtrain/fno_kappa100_seed1.pt": "c2a52cfb2fe68d3086b0c72a5b3cc74fb2df57106cebdc7039add8d202154d4f",
+    "results/checkpoints_longtrain/fno_kappa100_seed2.json": "1b551a77df2dedd9ec6e7a9d50e5c3141bf80870e9f8b9462a7df2566a7d2780",
+    "results/checkpoints_longtrain/fno_kappa100_seed2.pt": "cf8fcc72adcbdf487514b2d6844ecd1f47d193c1f9cb15d1dcf9b23f701c7c3d",
+    "results/ood_features_bundle.npz": "17941221fabba420c672a78279f3d8ed284887f61767634d89b2985087ca7137",
+    "results/submission_32/predictions_k10.npz": "af38d05866bceb182b945675d3e956e83d4d550689c5ecb34910f786516c8582",
+    "results/submission_32/predictions_k100.npz": "ab863eb280a26d84922d14790652fe044f2449f841578452ae2b19b16116d4e6",
+    "results/submission_32/predictions_k500.npz": "afeb327a8860bab20af26c67b37ae825708f8564c60ce675b60f282b0929707f",
+    "results/submission_64/predictions_k10.npz": "f8b59a476de23fbcdfab07205e189dda5cf75f3c37cd063a9225a8585a1a4a56",
+    "results/submission_64/predictions_k100.npz": "cd0c845ccbf827001a1ff45b38d307569df36867280c3c60321e6ba562643f90",
+    "results/submission_64/predictions_k500.npz": "6958efa7965f3e2df7f32407c58b096ff1df6c56bbce2fac59cfbc6fa2672edd",
+    "results/submission_fresh_32/predictions_k10.npz": "f7664e867bf3bcc31d155e3e45f57774db320e63925bba78804feffdd0f251f1",
+    "results/submission_fresh_32/predictions_k100.npz": "b957198961e6fd743cf5d2b44e87cbb89014f8acb694980de2b4fd1877e0cab1",
+    "results/submission_fresh_32/predictions_k500.npz": "70bef16cb87d04567b143ca173f8325f5eddc756fb164f8016283c8d4a76bb4d",
+    "results/submission_fresh_64/predictions_k10.npz": "1b1446ae7b324b054e80f4d04a2aac63ee8eb2c033ad0ecf45ef47c72cdef866",
+    "results/submission_fresh_64/predictions_k100.npz": "2aad18bebf4939c63f3aa2f6b79e114f8ced7bb81b9e398948af44f365d30153",
+    "results/submission_fresh_64/predictions_k500.npz": "a837262c3733fcf86530a85711c14d058cf8fde5ee4fc62ac2f3a6e532c195ec"
+  },
+  "limitations": [
+    "Old 80-epoch checkpoints omit an embedded data seed; seed 0 is supported by exact input normalization and original-field reconstruction plus the saved code/default protocol.",
+    "Target normalization was inspected in training code as using u_tr only; this audit does not recompute 700 PDE training targets.",
+    "Exact coefficient disjointness is weaker than statistical independence or an audit of unrecorded historical model selection.",
+    "Original fields were used in exploratory development; fresh fields are independent draws used with the frozen predictors, not new training seeds.",
+    "The same random geometry is reused across contrasts and resolutions; condition-wise confidence intervals must not be pooled as independent geometries.",
+    "Checkerboard has two unique fields; resampling 200 draws quantifies only the finite phase-mixture diagnostic."
+  ],
+  "ood": {
+    "calib": {
+      "n_fields": 200,
+      "seed": 9000,
+      "training_overlap": 0,
+      "unique_coefficient_fields": 200
+    },
+    "test_b": {
+      "n_fields": 200,
+      "seed": 39000,
+      "training_overlap": 0,
+      "unique_coefficient_fields": 2
+    },
+    "test_cs": {
+      "n_fields": 200,
+      "seed": 49000,
+      "training_overlap": 0,
+      "unique_coefficient_fields": 200
+    },
+    "test_id": {
+      "n_fields": 200,
+      "seed": 19000,
+      "training_overlap": 0,
+      "unique_coefficient_fields": 200
+    },
+    "test_r": {
+      "n_fields": 200,
+      "seed": 29000,
+      "training_overlap": 0,
+      "unique_coefficient_fields": 200
+    }
+  },
+  "ood_pairwise_overlap": {
+    "calib__test_b": 0,
+    "calib__test_cs": 0,
+    "calib__test_id": 0,
+    "calib__test_r": 0,
+    "test_cs__test_b": 0,
+    "test_cs__test_r": 0,
+    "test_id__test_b": 0,
+    "test_id__test_cs": 0,
+    "test_id__test_r": 0,
+    "test_r__test_b": 0
+  },
+  "per_configuration": {
+    "N32_k10": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa10_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa10_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa10_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    },
+    "N32_k100": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa100_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa100_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa100_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": 0,
+          "epochs": 240,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_longtrain/fno_kappa100_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": 0,
+          "epochs": 240,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_longtrain/fno_kappa100_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": 0,
+          "epochs": 240,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_longtrain/fno_kappa100_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    },
+    "N32_k500": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa500_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa500_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints/fno_kappa500_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    },
+    "N64_k10": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa10_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa10_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa10_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    },
+    "N64_k100": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa100_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa100_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa100_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    },
+    "N64_k500": {
+      "checkpoints": [
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa500_seed0.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa500_seed1.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        },
+        {
+          "data_seed_embedded": null,
+          "epochs": 80,
+          "input_normalization_abs_difference": {
+            "logmean": 0.0,
+            "logstd": 0.0
+          },
+          "path": "results/checkpoints_64/fno_kappa500_seed2.pt",
+          "sidecar_agrees_with_embedded_metadata": true
+        }
+      ],
+      "evaluation": {
+        "fresh": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 0,
+          "test_seed": 20260912,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        },
+        "original": {
+          "n_fields": 200,
+          "reconstruction_exact": true,
+          "skip_fields": 700,
+          "test_seed": 0,
+          "training_overlap": 0,
+          "unique_coefficient_fields": 200
+        }
+      },
+      "original_fresh_overlap": 0,
+      "unique_training_coefficient_fields": 700
+    }
+  },
+  "scope": "reconstructed seed-0 coefficient draws, normalization metadata agreement, exact coefficient overlap; no retrospective guarantee of unrecorded historical actions",
+  "source_sha256": {
+    "analysis/audit_submission_splits.py": "bff3e4ccac8b7f1b5d3456bdc05a902f84f211b930254949f989df8b38974401",
+    "data/generate_contrast.py": "87ddb565fbc57cb86027138df6bbd6bce927c692ad4762fd863df2d656996bc1",
+    "experiments/exp_real_fno_multi_kappa.py": "694fd7039b6d8c7ff088147a25ba17cce9dd7b7f2074a34296648f3d729fd3f2",
+    "experiments/exp_submission_validation.py": "4ca1bdeb77a9ee33d24fb6e4250a4ff277b2decfe9db370b55d41f8d85479136"
+  },
+  "training_draws": 700
+}

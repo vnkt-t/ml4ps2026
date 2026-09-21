@@ -1,0 +1,17 @@
+audit_fault_detection: 0 cumulative failures
+Audited submission_32: all field summaries, paired intervals, and independent identities
+Audited submission_64: all field summaries, paired intervals, and independent identities
+Audited submission_fresh_32: all field summaries, paired intervals, and independent identities
+Audited submission_fresh_64: all field summaries, paired intervals, and independent identities
+Audited submission_longtrain_fresh_32: all field summaries, paired intervals, and independent identities
+audit_primary: 0 cumulative failures
+audit_unet: 0 cumulative failures
+audit_rank: 0 cumulative failures
+audit_ood_rank: 0 cumulative failures
+audit_flux: 0 cumulative failures
+audit_adaptive: 0 cumulative failures
+audit_split_evidence: 0 cumulative failures
+audit_timing: 0 cumulative failures
+audit_decision_replay: 0 cumulative failures
+audit_submission_files: 0 cumulative failures
+PASS: 32393 checks, 0 failures, 0 not verified; results/submission_artifact_audit.json

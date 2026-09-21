@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-09-12T05:33:41.640500+00:00",
+  "method": "Reverse the listed narrow edits in current source bytes, then require SHA256 equality with independently retained historical experiment provenance.",
+  "original_scientific_artifact_sha256": {
+    "results/adaptive_rank_stopping/summary.json": "936d60ba91ecd55533828cdc97fb850645ae230ded9b30d7026f1e1126967193",
+    "results/ood_audit_fullamg_20260912/audit.json": "2b3551353373f64d2bfe7bcaeefe9d093f7ac2db5d652f3561cfaa75b6fe7a72",
+    "results/ood_audit_fullamg_20260912/handoff_provenance.json": "0e1d666af63d4fb7c8a0168a27eede3e4c6f405a4d350a348cbd63b92181b185"
+  },
+  "original_scientific_artifacts_unchanged": true,
+  "provenance_limit": "These files were reconstructed after the runs, not retained snapshots taken at the time. The expected historical hashes already existed in unchanged scientific reports. No report hash or result was relabeled.",
+  "records": [
+    {
+      "current_source_sha256": "0d92d8d6a544e4b0377ca1f41888703985d0223f178af0f9c2f258665c794745",
+      "expected_historical_sha256": "e661789b5d78f23590a48323cdc126ab874b920794bfef828dfdfe0733117978",
+      "reason_for_version_change": "Later addition of the optional equilibrated-flux bound; default Poisson stopping algorithm unchanged.",
+      "relative_source_path": "analysis/check_adaptive_rank_stopping.py",
+      "reversed_edits": [
+        {
+          "current_text": "REPO / \"uncertainty/rank_bounds.py\", REPO / \"uncertainty/flux_bounds.py\", Path(__file__).resolve()]",
+          "historical_text": "REPO / \"uncertainty/rank_bounds.py\", Path(__file__).resolve()]",
+          "occurrences": 1
+        },
+        {
+          "current_text": "                     \"bound_kind\": args.bound_kind,\n",
+          "historical_text": "",
+          "occurrences": 1
+        },
+        {
+          "current_text": "                result = adaptive_poisson_cg(A, rhs, float(a[i].min()),\n                                             bound_kind=args.bound_kind, coefficient=a[i])",
+          "historical_text": "                result = adaptive_poisson_cg(A, rhs, float(a[i].min()))",
+          "occurrences": 1
+        },
+        {
+          "current_text": "    parser.add_argument(\"--bound-kind\", choices=(\"poisson\", \"flux\"), default=\"poisson\")\n",
+          "historical_text": "",
+          "occurrences": 1
+        }
+      ],
+      "snapshot_path": "reproducibility/recovered_source_snapshots/e661789b5d78f23590a48323cdc126ab874b920794bfef828dfdfe0733117978/analysis/check_adaptive_rank_stopping.py",
+      "verified_reconstructed_sha256": "e661789b5d78f23590a48323cdc126ab874b920794bfef828dfdfe0733117978"
+    },
+    {
+      "current_source_sha256": "f6d71282050b9600ad9c12b9774bda1a5dabd502fda1843d2c83087daa73724a",
+      "expected_historical_sha256": "8541a9ead5de4da06b8d198e998f0818ddc1d0887505e5b12627213ea9c3eac9",
+      "reason_for_version_change": "Later zero-RHS acceptance regression fix; nonzero-RHS path unchanged.",
+      "relative_source_path": "solver/multigrid.py",
+      "reversed_edits": [
+        {
+          "current_text": "        return bool(np.all(e == 0.0))",
+          "historical_text": "        return True",
+          "occurrences": 1
+        }
+      ],
+      "snapshot_path": "reproducibility/recovered_source_snapshots/8541a9ead5de4da06b8d198e998f0818ddc1d0887505e5b12627213ea9c3eac9/solver/multigrid.py",
+      "verified_reconstructed_sha256": "8541a9ead5de4da06b8d198e998f0818ddc1d0887505e5b12627213ea9c3eac9"
+    },
+    {
+      "current_source_sha256": "24f9a625d593115bae76b54770faa505bd76324c14c2d3511650fa6ceb321e4d",
+      "expected_historical_sha256": "0c5a12e3980adaab424954cfe0b5eca654d0fcf830cff1d2aa9638c1c7efad74",
+      "reason_for_version_change": "Later removal of an unnecessary float64 CSR copy in cg_correction; no mathematical operation changes, and no change to the AMG code path.",
+      "relative_source_path": "solver/relaxation.py",
+      "reversed_edits": [
+        {
+          "current_text": "a = A.tocsr().astype(np.float64, copy=False)",
+          "historical_text": "a = A.tocsr().astype(np.float64)",
+          "occurrences": 1
+        }
+      ],
+      "snapshot_path": "reproducibility/recovered_source_snapshots/0c5a12e3980adaab424954cfe0b5eca654d0fcf830cff1d2aa9638c1c7efad74/solver/relaxation.py",
+      "verified_reconstructed_sha256": "0c5a12e3980adaab424954cfe0b5eca654d0fcf830cff1d2aa9638c1c7efad74"
+    }
+  ],
+  "status": "EXACT_HISTORICAL_HASH_RECONSTRUCTION_PASS",
+  "working_sources_unchanged": true
+}

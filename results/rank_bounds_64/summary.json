@@ -1,0 +1,380 @@
+{
+  "experiment": "discrete_rank_enclosures",
+  "per_kappa": {
+    "10": {
+      "grid_N": 64,
+      "n_fields": 200,
+      "budgets": {
+        "5": {
+          "resolved_fraction": {
+            "mean": 1.220703125e-06,
+            "ci95_low": 0.0,
+            "ci95_high": 3.662109375e-06
+          },
+          "certified_high_recall": {
+            "mean": 1.2195121951219513e-05,
+            "ci95_low": 0.0,
+            "ci95_high": 3.6585365853658535e-05
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 4.396010757658629,
+            "ci95_low": 4.218754417862357,
+            "ci95_high": 4.583812337859329
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.06483153869658545,
+            "ci95_low": 0.061917148645806434,
+            "ci95_high": 0.06798420778122632
+          }
+        },
+        "10": {
+          "resolved_fraction": {
+            "mean": 0.955465087890625,
+            "ci95_low": 0.9526291198730469,
+            "ci95_high": 0.9582997131347657
+          },
+          "certified_high_recall": {
+            "mean": 0.7985243902439025,
+            "ci95_low": 0.7862676829268292,
+            "ci95_high": 0.8105246951219514
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 0.07903065121107052,
+            "ci95_low": 0.0746339021505756,
+            "ci95_high": 0.08357426986375635
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.0011060356377541637,
+            "ci95_low": 0.0010132942473586046,
+            "ci95_high": 0.001203291765644393
+          }
+        },
+        "20": {
+          "resolved_fraction": {
+            "mean": 0.99997802734375,
+            "ci95_low": 0.99996337890625,
+            "ci95_high": 0.999990234375
+          },
+          "certified_high_recall": {
+            "mean": 0.9998902439024391,
+            "ci95_low": 0.9998170731707318,
+            "ci95_high": 0.9999512195121951
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 3.088352813220815e-05,
+            "ci95_low": 2.7818628584113797e-05,
+            "ci95_high": 3.42305230576255e-05
+          },
+          "relative_l2_correction_error": {
+            "mean": 4.632730651830293e-07,
+            "ci95_low": 3.9703736969019246e-07,
+            "ci95_high": 5.379253799170199e-07
+          }
+        },
+        "40": {
+          "resolved_fraction": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "certified_high_recall": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 2.776012407041181e-12,
+            "ci95_low": 2.168969892032511e-12,
+            "ci95_high": 3.4981850785359896e-12
+          },
+          "relative_l2_correction_error": {
+            "mean": 1.3252545166767128e-12,
+            "ci95_low": 1.2296896289440753e-12,
+            "ci95_high": 1.4281983345268301e-12
+          }
+        },
+        "80": {
+          "resolved_fraction": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "certified_high_recall": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 2.8716322278874433e-13,
+            "ci95_low": 2.791861013701034e-13,
+            "ci95_high": 2.9521468474771433e-13
+          },
+          "relative_l2_correction_error": {
+            "mean": 1.3220652319802388e-12,
+            "ci95_low": 1.2257751794472876e-12,
+            "ci95_high": 1.4257346230439376e-12
+          }
+        }
+      },
+      "prediction_cache": "results/submission_64/predictions_k10.npz",
+      "prediction_cache_sha256": "f8b59a476de23fbcdfab07205e189dda5cf75f3c37cd063a9225a8585a1a4a56",
+      "false_high_total": 0,
+      "false_low_total": 0,
+      "bound_violation_total": 0,
+      "max_numeric_bound_excess_relative": 2.161976932076055e-12
+    },
+    "100": {
+      "grid_N": 64,
+      "n_fields": 200,
+      "budgets": {
+        "5": {
+          "resolved_fraction": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "certified_high_recall": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 64.96392734240278,
+            "ci95_low": 60.82159460844183,
+            "ci95_high": 69.25711908303967
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.609367558944841,
+            "ci95_low": 0.5741128061100975,
+            "ci95_high": 0.6457581394309264
+          }
+        },
+        "10": {
+          "resolved_fraction": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "certified_high_recall": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 14.975826521710179,
+            "ci95_low": 13.968319034553536,
+            "ci95_high": 16.018980901893954
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.11854997396539271,
+            "ci95_low": 0.1086432485679138,
+            "ci95_high": 0.12872463422360547
+          }
+        },
+        "20": {
+          "resolved_fraction": {
+            "mean": 0.772921142578125,
+            "ci95_low": 0.7302354431152344,
+            "ci95_high": 0.8118771362304686
+          },
+          "certified_high_recall": {
+            "mean": 0.5503536585365854,
+            "ci95_low": 0.5080838414634147,
+            "ci95_high": 0.5906243902439025
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 0.39295029424237027,
+            "ci95_low": 0.3283098856943608,
+            "ci95_high": 0.46315158877574303
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.0016872821588848085,
+            "ci95_low": 0.0013040896286933938,
+            "ci95_high": 0.0021276368812574134
+          }
+        },
+        "40": {
+          "resolved_fraction": {
+            "mean": 0.9999658203125,
+            "ci95_low": 0.9999462890625,
+            "ci95_high": 0.99998291015625
+          },
+          "certified_high_recall": {
+            "mean": 0.9998292682926829,
+            "ci95_low": 0.9997317073170732,
+            "ci95_high": 0.9999146341463415
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 8.804750459249659e-05,
+            "ci95_low": 6.025372829700933e-05,
+            "ci95_high": 0.00012483604997776313
+          },
+          "relative_l2_correction_error": {
+            "mean": 3.699789012960996e-07,
+            "ci95_low": 1.9998444336562994e-07,
+            "ci95_high": 6.190853980262918e-07
+          }
+        },
+        "80": {
+          "resolved_fraction": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "certified_high_recall": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 5.581621992185868e-12,
+            "ci95_low": 4.3326778273077645e-12,
+            "ci95_high": 7.130094629311171e-12
+          },
+          "relative_l2_correction_error": {
+            "mean": 2.0979642599437555e-12,
+            "ci95_low": 1.7289769313505574e-12,
+            "ci95_high": 2.5015889702402976e-12
+          }
+        }
+      },
+      "prediction_cache": "results/submission_64/predictions_k100.npz",
+      "prediction_cache_sha256": "cd0c845ccbf827001a1ff45b38d307569df36867280c3c60321e6ba562643f90",
+      "false_high_total": 0,
+      "false_low_total": 0,
+      "bound_violation_total": 0,
+      "max_numeric_bound_excess_relative": 9.40428550857984e-12
+    },
+    "500": {
+      "grid_N": 64,
+      "n_fields": 200,
+      "budgets": {
+        "5": {
+          "resolved_fraction": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "certified_high_recall": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 84.56051389375088,
+            "ci95_low": 79.02442708613638,
+            "ci95_high": 90.19062400499858
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.8310919523331779,
+            "ci95_low": 0.7933414184437293,
+            "ci95_high": 0.8685739316370846
+          }
+        },
+        "10": {
+          "resolved_fraction": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "certified_high_recall": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 82.12913946600234,
+            "ci95_low": 73.51186812329843,
+            "ci95_high": 90.69445016750808
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.3300567118702572,
+            "ci95_low": 0.30174219332025104,
+            "ci95_high": 0.35958525393863355
+          }
+        },
+        "20": {
+          "resolved_fraction": {
+            "mean": 0.211234130859375,
+            "ci95_low": 0.1672787170410156,
+            "ci95_high": 0.2596536865234375
+          },
+          "certified_high_recall": {
+            "mean": 0.10653658536585367,
+            "ci95_low": 0.07928810975609757,
+            "ci95_high": 0.13601554878048777
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 5.712697882501655,
+            "ci95_low": 4.461191100752873,
+            "ci95_high": 7.066678993566291
+          },
+          "relative_l2_correction_error": {
+            "mean": 0.014611315984084591,
+            "ci95_low": 0.011933669133709763,
+            "ci95_high": 0.017597797440084887
+          }
+        },
+        "40": {
+          "resolved_fraction": {
+            "mean": 0.997020263671875,
+            "ci95_low": 0.9959850463867187,
+            "ci95_high": 0.9978821105957031
+          },
+          "certified_high_recall": {
+            "mean": 0.985609756097561,
+            "ci95_low": 0.9807314024390245,
+            "ci95_high": 0.9896225609756096
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 0.007539636511191335,
+            "ci95_low": 0.0052676286674023,
+            "ci95_high": 0.010338846159213398
+          },
+          "relative_l2_correction_error": {
+            "mean": 1.6767965203593233e-05,
+            "ci95_low": 9.529814328503299e-06,
+            "ci95_high": 2.6409754830038996e-05
+          }
+        },
+        "80": {
+          "resolved_fraction": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "certified_high_recall": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "mean_bound_over_mean_abs_error": {
+            "mean": 3.1089368438867086e-08,
+            "ci95_low": 1.8011294439199357e-08,
+            "ci95_high": 4.724784151083453e-08
+          },
+          "relative_l2_correction_error": {
+            "mean": 5.583123752974846e-11,
+            "ci95_low": 2.9041039605830298e-11,
+            "ci95_high": 9.103675339955619e-11
+          }
+        }
+      },
+      "prediction_cache": "results/submission_64/predictions_k500.npz",
+      "prediction_cache_sha256": "6958efa7965f3e2df7f32407c58b096ff1df6c56bbce2fac59cfbc6fa2672edd",
+      "false_high_total": 0,
+      "false_low_total": 0,
+      "bound_violation_total": 0,
+      "max_numeric_bound_excess_relative": 1.7036110659986557e-11
+    }
+  },
+  "bound": "sqrt(diag(B^-1) * d^T B^-1 d)/a_min, B=A(1), d=r-Az",
+  "scope": "Analytic exact-arithmetic bound for this discrete TPFA system; float64 implementation independently checked, not interval-arithmetic certification.",
+  "top_fraction": 0.1,
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 20260912,
+  "source_hashes": {
+    "uncertainty/rank_bounds.py": "d358d579e273c17325decb786ba2fb2eb90ef0b11b614008e66d8e8c03da1ffe",
+    "solver/poisson.py": "69860694a1e9a0494879a932705d140e380e99a84f6116f300e27b44d2f2fe4f"
+  }
+}

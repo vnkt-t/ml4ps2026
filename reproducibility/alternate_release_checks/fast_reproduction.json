@@ -1,0 +1,160 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "analysis/build_submission_assets.py"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 10.820310125
+    },
+    {
+      "command": [
+        "python",
+        "analysis/build_alternate_figure.py"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 1.0998430829999997
+    },
+    {
+      "command": [
+        "python",
+        "analysis/build_robustness_assets.py"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 0.0335316670000001
+    },
+    {
+      "command": [
+        "python",
+        "analysis/build_submission_assets.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 0.5700469170000009
+    },
+    {
+      "command": [
+        "python",
+        "analysis/build_alternate_figure.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 0.5418963330000004
+    },
+    {
+      "command": [
+        "python",
+        "analysis/build_robustness_assets.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "wall_time_s": 0.03180145900000042
+    }
+  ],
+  "created_utc": "2026-09-15T23:39:56.597801+00:00",
+  "environment": {
+    "cpu_threads_requested": 1,
+    "machine": "arm64",
+    "packages": {
+      "matplotlib": "3.9.4",
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "scipy": "1.13.1"
+    },
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "python": "3.9.6"
+  },
+  "figure_files_byte_identical": {
+    "paper/figures/submission_budget_bounds.pdf": true,
+    "paper/figures/submission_budget_bounds.png": true,
+    "paper/figures/submission_budget_bounds.svg": true,
+    "paper/figures/submission_maps_alternate.pdf": true,
+    "paper/figures/submission_maps_alternate.png": true,
+    "paper/figures/submission_maps_alternate.svg": true
+  },
+  "input_sha256": {
+    "analysis/build_alternate_figure.py": "3ab266c75ffb7b052c72bbda18d121af443b6ecd59b76b2f1c36b0fbd45106b3",
+    "analysis/build_robustness_assets.py": "074b53f3c5f195c3d1956bc9fa8425ef324aeb60364abdf217454e3b7bd34710",
+    "analysis/build_submission_assets.py": "5de7026febe5ab63123baf9bcf92225b260da40460144008663dc9e7b37bc21f",
+    "analysis/reproduce_paper_assets.py": "e0c225148fd45ce389ea9950a550ec3cdc7834f3e2e246bbeb12726c2ac1a4ac",
+    "analysis/submission_figure_style.py": "162a164b0afca61d91e6d9d50b80e78d9e4431290f2638e730674ae9be791994",
+    "results/adaptive_rank_flux/summary.json": "f0072fd9b2dade5e8c407e11e8a64b2899bbc081dac0645977fabe3f8e394ce7",
+    "results/adaptive_rank_stopping/summary.json": "936d60ba91ecd55533828cdc97fb850645ae230ded9b30d7026f1e1126967193",
+    "results/flux_bounds_all/summary.json": "859e58aaa465105efc0d4b1d5c6a52389685fb1c4203a3adab728dfe5ed06898",
+    "results/rank_bounds_fresh_32/summary.json": "f6e6a6f2ca0705ee3bac66d48ed7c4c247bf97cdbbd142059da6c3c804fe0323",
+    "results/rank_bounds_fresh_64/summary.json": "93c24deb772f0559c6b7307a7da471c7f0607facd0e5a85d2451d43efae8b7b5",
+    "results/smooth_robustness/summary.json": "8abe737d27ed6a7a50daea14d03d3e12be66affcc0b41ee10dba829a46cd7ec2",
+    "results/smooth_robustness/verification.json": "6c7ac25d621eb5122ffb104d2eebbc2a31b6609428920a49bd85ed74ee3de19a",
+    "results/submission_fresh_32/metrics_k100.csv": "15ac114e3d211d4c70f255964009c20b8022bcb6b3d3e0eee61ca58131aa8af9",
+    "results/submission_fresh_32/predictions_k100.npz": "b957198961e6fd743cf5d2b44e87cbb89014f8acb694980de2b4fd1877e0cab1",
+    "results/submission_fresh_32/summary.json": "1dfa14b35bb5b4e0b22b715ee836452f774bc031be6ec4e7f5f2272ba8a53166",
+    "results/submission_fresh_64/summary.json": "238f792e11a39659458e3fe6b506932f71bfab7caffdd15c2859b273f12da614",
+    "results/submission_longtrain_fresh_32/summary.json": "c744c3d7059831be2d7f117413556a4c505aa83f60cce9aa29cd79576786d043",
+    "results/submission_timing_flux/benchmark.json": "cb80c9614c6588f514df39fcbb09908bd53102826b3e8d86173c33b55093bcee",
+    "results/unet_robustness/summary.json": "616e4e671229f68c69f1eec6e66b03a9ef7f8de2272e31ebb7df01128dc2356b",
+    "solver/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "solver/adaptive.py": "29e53153068c5498903c72ae1eae63f696bd68b5dfae901a83a60842b7c88dc5",
+    "solver/assemble_fd.py": "71126dd84b02ac12590093eb2cbdf356f68fc3e16609a7f5e408bb26b76fd7df",
+    "solver/diagnostics.py": "0df5890af4c1d29fed6cdc21d88871b481d69367aa1517d0d297b05bdaec48b4",
+    "solver/multigrid.py": "f6d71282050b9600ad9c12b9774bda1a5dabd502fda1843d2c83087daa73724a",
+    "solver/poisson.py": "69860694a1e9a0494879a932705d140e380e99a84f6116f300e27b44d2f2fe4f",
+    "solver/relaxation.py": "24f9a625d593115bae76b54770faa505bd76324c14c2d3511650fa6ceb321e4d",
+    "solver/residual.py": "00d29e2138b2562aa1507c972e9b2dc398bee3ba496eec692d2053ad6b46227f",
+    "solver/solve.py": "bf53292ca26cdd0c98d68628c912afc8012aeb15e4e9297315ffdd6259574b85",
+    "uncertainty/compute_ladder.py": "6b94ef583ab2e891768b8ef7c419c5e5905d7c4c11f7015b416f67f9f61eecb4",
+    "uncertainty/conformal.py": "4eb74ba9e4845e7861f83408c1dbbf3edcf4ff19823cc13244eb8d6f7f74b3c3",
+    "uncertainty/ensemble_scores.py": "0a50f842c9f0164ded1a9d3d1820fe3b20762f81b3da87d27d923cdae015dc5e",
+    "uncertainty/flux_bounds.py": "5bf73a8946ed1dca2da492872bc5df748b759bcb89319a133fb9c06f474fd931",
+    "uncertainty/rank_bounds.py": "d358d579e273c17325decb786ba2fb2eb90ef0b11b614008e66d8e8c03da1ffe",
+    "uncertainty/residual_scores.py": "14743c264bceddc701441a0029c5ea77cbc22b8cc3e58eb822eb7e64b3a155e0",
+    "uncertainty/weighted_conformal.py": "61bac6539068e3ec6415a84a795d7ee970453b09b43c2ced2c1dd961346fab8a"
+  },
+  "numerical_outputs_identical": true,
+  "output_sha256": {
+    "paper/figures/submission_budget_bounds.pdf": "9f5d56822b2521e5e56d58adb1ce382c9eb2d1f2618c6e3e512a19db043058a7",
+    "paper/figures/submission_budget_bounds.png": "c5efa57daf2134af06b76d92e820f195cb02892e58e7031fdc43673555a81c25",
+    "paper/figures/submission_budget_bounds.svg": "28d042ecd06084e7bb3b26b6164f7a301e718c218eb23ae5d015f0c27e07edfb",
+    "paper/figures/submission_maps.pdf": "00f6bbf7dedb7e408cfec1b0937c2f86abf04cad7c73574023e609f95ce1c2f4",
+    "paper/figures/submission_maps.png": "f10806cf4acd5e9d11880950c3d8262485c46d26bfeb0ddd5580758b829b2202",
+    "paper/figures/submission_maps.svg": "bd4b88900f9c05688142cff1ece6d40430cc6b0a1cc1bd3a3fd9cf73c86ab0ce",
+    "paper/figures/submission_maps_alternate.pdf": "cc4290c394bb49d45490b78c879903401f82f13aab2da7ea767fbc2efe7d4709",
+    "paper/figures/submission_maps_alternate.png": "abc582e4413163de38d2d83152e89195f0fac4abc84b9dc9c86af315bdb7fa0c",
+    "paper/figures/submission_maps_alternate.svg": "7cd53cd2163d820799a405b24ffcf0e6b82ef5c67ee1d5148a4f5f50029305eb",
+    "paper/generated/alternate_figure_manifest.json": "c79ac81a2a7295e375008b56c2c7fb25710bc55600c449e2ea5faaddc0b5168b",
+    "paper/generated/figure_manifest.json": "3983ca0a71bcfeb070d570dc646ae9165616eb788c1fc1896ca030ecd1111e23",
+    "paper/generated/localization_table.tex": "39000034c4c5ac7eb6402b5971181f559ea12c04d9ff96746ceeca3313982deb",
+    "paper/generated/numbers.tex": "4d1259396f5ff62d2b32a9c84c4981dceb705106d916efeb237e7d02468eff50",
+    "paper/generated/numerical_sources.json": "f3ffbe25426f0621f6f4ae43c1c9f9b98c702ac168135081bf631fe8ac77b903",
+    "paper/generated/representative_field.json": "d815dce2ebd6dae1c004ef2e8dcc950aa0a33d5fe2aaf00a8c5d1690a56014d3",
+    "paper/generated/robustness_manifest.json": "94ec3a0ac0f9ee6435ddbb18619b66d3e8fa3f0f3cb7a054caebf0741661c7f8",
+    "paper/generated/robustness_numbers.tex": "2f1646f51b4ce1b1817205a6e23ecd5978578df99c557c6a1232733ff19e3bbe",
+    "paper/generated/robustness_table.tex": "d23ea4d0051c425567943bca8531430789c894969d9eb00dda35b5d3761f82f1"
+  },
+  "paper_outputs": {
+    "Figure 1": [
+      "paper/figures/submission_maps_alternate.pdf",
+      "paper/figures/submission_maps_alternate.svg",
+      "paper/figures/submission_maps_alternate.png"
+    ],
+    "Figure 2": [
+      "paper/figures/submission_budget_bounds.pdf",
+      "paper/figures/submission_budget_bounds.svg",
+      "paper/figures/submission_budget_bounds.png"
+    ],
+    "Table 1": [
+      "paper/generated/localization_table.tex"
+    ],
+    "Table 2": [
+      "paper/generated/robustness_table.tex"
+    ]
+  },
+  "rendering_note": "Renderer/font/library differences can change figure bytes across environments; inspect the per-file comparisons.",
+  "retained_manuscript_pdfs_unchanged": {
+    "paper/draft_ml4ps.pdf": "b4a315aab50af8604a697b96d19d2cd084b91d730bbb85088595fd44deb05950",
+    "paper/draft_ml4ps_alternate.pdf": "b4a315aab50af8604a697b96d19d2cd084b91d730bbb85088595fd44deb05950"
+  },
+  "scope": "Regenerated tables, numerical LaTeX and figures from retained records; numerical text and representative-field decisions match exactly. This is not training or a full experiment audit.",
+  "status": "PASS",
+  "wall_time_s": 13.163779791
+}

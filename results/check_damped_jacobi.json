@@ -1,0 +1,9 @@
+{
+  "kappa": 100.0,
+  "grid_N": 32,
+  "n_test": 200,
+  "sweeps": 20,
+  "undamped_jacobi_spearman_mean": 0.5144194815732064,
+  "damped_jacobi_omega": 0.6666666666666666,
+  "damped_jacobi_spearman_mean": 0.46875616366631495
+}

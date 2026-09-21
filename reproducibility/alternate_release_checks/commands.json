@@ -1,0 +1,89 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "analysis/build_submission_assets.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "label": "core_assets"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/build_alternate_figure.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "label": "alternate_figure"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/verify_smooth_artifacts.py",
+        "--producer-log",
+        "logs/smooth_robustness.log"
+      ],
+      "exit_code": 0,
+      "label": "smooth_verification"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/build_robustness_assets.py"
+      ],
+      "exit_code": 0,
+      "label": "robustness_assets"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/audit_submission_citations.py"
+      ],
+      "exit_code": 0,
+      "label": "citations"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/audit_submission_artifacts.py"
+      ],
+      "exit_code": 0,
+      "label": "full_core_audit"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/audit_alternate_manuscript.py"
+      ],
+      "exit_code": 0,
+      "label": "alternate_document"
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error::RuntimeWarning"
+      ],
+      "exit_code": 0,
+      "label": "test_suite"
+    },
+    {
+      "argv": [
+        "python",
+        "analysis/reproduce_paper_assets.py",
+        "--out",
+        "tmp/fast_reproduction"
+      ],
+      "exit_code": 0,
+      "label": "fast_reproduction"
+    }
+  ],
+  "created_utc": "2026-09-15T23:39:56.633141+00:00",
+  "scope": "Commands executed against anonymous staging; all exited with status zero. Detailed scientific scopes remain in each auditor receipt.",
+  "status": "PASS"
+}

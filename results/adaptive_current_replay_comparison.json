@@ -1,0 +1,1489 @@
+{
+  "all_non_fft_csv_values_exactly_reproduced": true,
+  "all_stopping_histories_exactly_reproduced": true,
+  "command": "VECLIB_MAXIMUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python analysis/check_adaptive_rank_stopping.py --cache-dirs results/submission_32 results/submission_64 results/submission_fresh_32 results/submission_fresh_64 --bound-kind poisson --bootstrap 5000 --samples 200 --out results/replay_20260912/adaptive_rank_stopping",
+  "comparison": "all CSV cells and complete history trees; exact numeric equality, no tolerance/filtering",
+  "comparison_source_sha256": "21a98c69c15288241e183b4eedbd67d905f8183eedac57d96b3ed49310de6519",
+  "conditions": {
+    "submission_32_k10": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 546.0,
+          "replay_sum": 546.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 20151.0,
+          "replay_sum": 20151.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 195.64077669902915,
+          "replay_sum": 195.64077669902915
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2730.0,
+          "replay_sum": 2730.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 546.0,
+          "replay_sum": 546.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6552.0,
+          "replay_sum": 6552.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2730.0,
+          "replay_sum": 2730.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2730.0,
+          "replay_sum": 2730.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.037482003070686186,
+          "replay_sum": 0.037482003070686186
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 199.0625,
+          "replay_sum": 199.0625
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_32_k100": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 997.0,
+          "replay_sum": 997.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19864.0,
+          "replay_sum": 19864.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 192.85436893203885,
+          "replay_sum": 192.85436893203885
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 4985.0,
+          "replay_sum": 4985.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 997.0,
+          "replay_sum": 997.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 11964.0,
+          "replay_sum": 11964.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 4985.0,
+          "replay_sum": 4985.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 4985.0,
+          "replay_sum": 4985.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.03223269242764373,
+          "replay_sum": 0.03223269242764373
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.482421875,
+          "replay_sum": 198.482421875
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_32_k500": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1255.0,
+          "replay_sum": 1255.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19765.0,
+          "replay_sum": 19765.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 191.89320388349518,
+          "replay_sum": 191.89320388349518
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6275.0,
+          "replay_sum": 6275.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1255.0,
+          "replay_sum": 1255.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 15060.0,
+          "replay_sum": 15060.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6275.0,
+          "replay_sum": 6275.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6275.0,
+          "replay_sum": 6275.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.032762212431084924,
+          "replay_sum": 0.032762212431084924
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.2421875,
+          "replay_sum": 198.2421875
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_64_k10": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 575.0,
+          "replay_sum": 575.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 80859.0,
+          "replay_sum": 80859.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 197.21707317073168,
+          "replay_sum": 197.21707317073168
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2875.0,
+          "replay_sum": 2875.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 575.0,
+          "replay_sum": 575.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6900.0,
+          "replay_sum": 6900.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2875.0,
+          "replay_sum": 2875.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2875.0,
+          "replay_sum": 2875.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.015201569073450605,
+          "replay_sum": 0.015201569073450605
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 199.42724609375,
+          "replay_sum": 199.42724609375
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_64_k100": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1038.0,
+          "replay_sum": 1038.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 78700.0,
+          "replay_sum": 78700.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 191.9512195121951,
+          "replay_sum": 191.9512195121951
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5190.0,
+          "replay_sum": 5190.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1038.0,
+          "replay_sum": 1038.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 12456.0,
+          "replay_sum": 12456.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5190.0,
+          "replay_sum": 5190.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5190.0,
+          "replay_sum": 5190.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.01851558997263064,
+          "replay_sum": 0.01851558997263064
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.325439453125,
+          "replay_sum": 198.325439453125
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_64_k500": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1327.0,
+          "replay_sum": 1327.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 78115.0,
+          "replay_sum": 78115.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 190.52439024390242,
+          "replay_sum": 190.52439024390242
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6635.0,
+          "replay_sum": 6635.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1327.0,
+          "replay_sum": 1327.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 15924.0,
+          "replay_sum": 15924.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6635.0,
+          "replay_sum": 6635.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6635.0,
+          "replay_sum": 6635.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.01800187007948175,
+          "replay_sum": 0.01800187007948175
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.038818359375,
+          "replay_sum": 198.038818359375
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_32_k10": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 547.0,
+          "replay_sum": 547.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 20169.0,
+          "replay_sum": 20169.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 195.81553398058256,
+          "replay_sum": 195.81553398058256
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2735.0,
+          "replay_sum": 2735.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 547.0,
+          "replay_sum": 547.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6564.0,
+          "replay_sum": 6564.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2735.0,
+          "replay_sum": 2735.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2735.0,
+          "replay_sum": 2735.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.03617794461343174,
+          "replay_sum": 0.03617794461343174
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 199.0478515625,
+          "replay_sum": 199.0478515625
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_32_k100": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1004.0,
+          "replay_sum": 1004.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19860.0,
+          "replay_sum": 19860.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 192.81553398058253,
+          "replay_sum": 192.81553398058253
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5020.0,
+          "replay_sum": 5020.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1004.0,
+          "replay_sum": 1004.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 12048.0,
+          "replay_sum": 12048.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5020.0,
+          "replay_sum": 5020.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5020.0,
+          "replay_sum": 5020.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.02897256977194667,
+          "replay_sum": 0.02897256977194667
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.51171875,
+          "replay_sum": 198.51171875
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_32_k500": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1260.0,
+          "replay_sum": 1260.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19773.0,
+          "replay_sum": 19773.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 191.97087378640776,
+          "replay_sum": 191.97087378640776
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6300.0,
+          "replay_sum": 6300.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1260.0,
+          "replay_sum": 1260.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 15120.0,
+          "replay_sum": 15120.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6300.0,
+          "replay_sum": 6300.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6300.0,
+          "replay_sum": 6300.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.03548115959398656,
+          "replay_sum": 0.03548115959398656
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.2626953125,
+          "replay_sum": 198.2626953125
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_64_k10": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 574.0,
+          "replay_sum": 574.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 80900.0,
+          "replay_sum": 80900.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 197.3170731707317,
+          "replay_sum": 197.3170731707317
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2870.0,
+          "replay_sum": 2870.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 574.0,
+          "replay_sum": 574.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6888.0,
+          "replay_sum": 6888.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2870.0,
+          "replay_sum": 2870.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 2870.0,
+          "replay_sum": 2870.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.016271166310622878,
+          "replay_sum": 0.016271166310622878
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 199.421630859375,
+          "replay_sum": 199.421630859375
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_64_k100": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1055.0,
+          "replay_sum": 1055.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 78953.0,
+          "replay_sum": 78953.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 192.56829268292682,
+          "replay_sum": 192.56829268292682
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5275.0,
+          "replay_sum": 5275.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1055.0,
+          "replay_sum": 1055.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 12660.0,
+          "replay_sum": 12660.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5275.0,
+          "replay_sum": 5275.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 5275.0,
+          "replay_sum": 5275.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.014795620490686506,
+          "replay_sum": 0.014795620490686506
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.4375,
+          "replay_sum": 198.4375
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    },
+    "submission_fresh_64_k500": {
+      "columns": {
+        "bound_poisson_solves": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1339.0,
+          "replay_sum": 1339.0
+        },
+        "certified_high_count": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 78241.0,
+          "replay_sum": 78241.0
+        },
+        "certified_high_recall": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 190.83170731707315,
+          "replay_sum": 190.83170731707315
+        },
+        "cg_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6695.0,
+          "replay_sum": 6695.0
+        },
+        "extra_operator_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 1339.0,
+          "replay_sum": 1339.0
+        },
+        "false_high": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "false_low": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.0,
+          "replay_sum": 0.0
+        },
+        "fft_transforms": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 16068.0,
+          "replay_sum": 16068.0
+        },
+        "iterations": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6695.0,
+          "replay_sum": 6695.0
+        },
+        "preconditioner_applications": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 6695.0,
+          "replay_sum": 6695.0
+        },
+        "relative_l2_correction_error": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 0.01784619822667489,
+          "replay_sum": 0.01784619822667489
+        },
+        "resolved_fraction": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 198.07177734375,
+          "replay_sum": 198.07177734375
+        },
+        "sample": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 19900.0,
+          "replay_sum": 19900.0
+        },
+        "status": {
+          "different_cells": 0,
+          "numeric": false
+        },
+        "target_met": {
+          "different_cells": 0,
+          "max_absolute_difference": 0.0,
+          "numeric": true,
+          "original_sum": 200.0,
+          "replay_sum": 200.0
+        }
+      },
+      "current_false_high_total": 0,
+      "current_false_low_total": 0,
+      "fields": 200,
+      "history_difference_count": 0,
+      "history_differences": [],
+      "history_exactly_equal": true
+    }
+  },
+  "experiment": "adaptive_current_source_replay_comparison",
+  "fft_counter_note": "Any fft_transforms differences are retained explicitly above. Current convention counts forward/inverse 2D DST calls: 2*(preconditioner_applications+bound_poisson_solves). No numerical differences are discarded.",
+  "field_files_match": true,
+  "history_leaf_difference_count": 0,
+  "input_and_current_sources_unchanged": true,
+  "n_conditions": 12,
+  "n_fields": 2400,
+  "numeric_cell_differences_by_column": {
+    "bound_poisson_solves": 0,
+    "certified_high_count": 0,
+    "certified_high_recall": 0,
+    "cg_operator_applications": 0,
+    "extra_operator_applications": 0,
+    "false_high": 0,
+    "false_low": 0,
+    "fft_transforms": 0,
+    "iterations": 0,
+    "preconditioner_applications": 0,
+    "relative_l2_correction_error": 0,
+    "resolved_fraction": 0,
+    "sample": 0,
+    "target_met": 0
+  },
+  "original_directory": "results/adaptive_rank_stopping",
+  "output_sha256": {
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_32_k10.csv": "8a8645cacec7a9900acfd6c8e6e5ad69ee2ff810ccd8482a2b155bcaa535bd93",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_32_k100.csv": "cb19102a9d65242b266a9df4436ac5292667db9646cde9b2956013bdda50b50f",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_32_k500.csv": "0bf1b83abc1a3694df30f3c156a9ea48b92b1185d78617e0416eab3d49b42750",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_64_k10.csv": "456887761073f8447ca3b5a4b8fed8ce5b0b84fed6cb84d37aade56f6f299e8f",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_64_k100.csv": "c60b5d3aadd86b58108333939094316b919dd3acb8e537389aa12ad2c12c0cdf",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_64_k500.csv": "654de58077319ade46dcd10d1ee9c0f61d680708038d06a448028602eb8f0ba6",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_32_k10.csv": "c94e5d78a1238e794107d6a1d28aa028435074fdd244416216904deb51cc9448",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_32_k100.csv": "18322b28a10dbeee59584e4a83e85eee04afb7a9d228997f613ef610e7c1f208",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_32_k500.csv": "6aef9ea6ead42982a87116fb6f14c192dc30b13b0b14b09156280e05ace0880f",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_64_k10.csv": "378f3b77eb3a7021ba29ca5c4465db198f0ff307b4a150490acc3890b31958fb",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_64_k100.csv": "198604cab96920bbc2b39cb47a278252ee60c990dd09374ff8c0cb01f3e072eb",
+    "results/replay_20260912/adaptive_rank_stopping/fields_submission_fresh_64_k500.csv": "2523132714bbad15d89c2090d51a173a0c9ee5cfe2921e7232659befc3621b05",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_32_k10.json": "e9e3dd97acbe605eae50b2fd6fe709702ef542b0374ed19b25d02d67a4cda438",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_32_k100.json": "d7327f9647848d4e9d24b6b3b442692ad7fee5b489af7ef556f7d80bf6adc095",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_32_k500.json": "00194370a77535d6e531e14dcdca29ca373266ea9d2cd2e8491a010f3897821d",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_64_k10.json": "b1758ed7b81cc2b2ea479759499c9adb737c2a098bb40d8ecc02dd67ba31fb64",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_64_k100.json": "fbe024193d8a8c6aad3b92df17a56ee561c056888d2ad2eecca6105ba8739aa8",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_64_k500.json": "3783e68426cb00bde73778377a49db97eb75567ef2b25082d549c7b8ab2346fe",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_32_k10.json": "45f6a8ace6554e4a61a8d4f90040ea49c74b0fe54be82cc918b02ee5f5612027",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_32_k100.json": "824e0f6b9eb04e69dd2ae2b72195929b74b2180ddeccdbe19de6a86f096efe19",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_32_k500.json": "265adaca9a30f521728c24555ad33d32a99f9451f4d9250856eb0106e1ee38b5",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_64_k10.json": "1668c7693bb77981beb632e5d29af119289c8596916bd1dee045f908f5e1d106",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_64_k100.json": "88abb2e73b36eb1c11d860d42fde41d517af2b817773fc7c8260a5f9f8421af9",
+    "results/replay_20260912/adaptive_rank_stopping/histories_submission_fresh_64_k500.json": "4969107d1c0436fd9156b17952dea5d1106e67714c1b711310da56b6c82c7e15",
+    "results/replay_20260912/adaptive_rank_stopping/summary.json": "daa60fb99886703ebb3ffb256bdcd128015f1917e061d5b88ffda467fb649323"
+  },
+  "replay_directory": "results/replay_20260912/adaptive_rank_stopping",
+  "snapshot_checks": {
+    "analysis/check_adaptive_rank_stopping.py": true,
+    "solver/adaptive.py": true,
+    "solver/assemble_fd.py": true,
+    "solver/poisson.py": true,
+    "uncertainty/flux_bounds.py": true,
+    "uncertainty/rank_bounds.py": true
+  },
+  "source_snapshot_directory": "reproducibility/adaptive_current_replay",
+  "source_snapshots_byte_identical": true,
+  "stability_checks": {
+    "analysis/check_adaptive_rank_stopping.py": true,
+    "results/adaptive_rank_stopping/fields_submission_32_k10.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_32_k100.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_32_k500.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_64_k10.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_64_k100.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_64_k500.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_32_k10.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_32_k100.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_32_k500.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_64_k10.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_64_k100.csv": true,
+    "results/adaptive_rank_stopping/fields_submission_fresh_64_k500.csv": true,
+    "results/adaptive_rank_stopping/histories_submission_32_k10.json": true,
+    "results/adaptive_rank_stopping/histories_submission_32_k100.json": true,
+    "results/adaptive_rank_stopping/histories_submission_32_k500.json": true,
+    "results/adaptive_rank_stopping/histories_submission_64_k10.json": true,
+    "results/adaptive_rank_stopping/histories_submission_64_k100.json": true,
+    "results/adaptive_rank_stopping/histories_submission_64_k500.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_32_k10.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_32_k100.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_32_k500.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_64_k10.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_64_k100.json": true,
+    "results/adaptive_rank_stopping/histories_submission_fresh_64_k500.json": true,
+    "results/adaptive_rank_stopping/summary.json": true,
+    "results/submission_32/predictions_k10.npz": true,
+    "results/submission_32/predictions_k100.npz": true,
+    "results/submission_32/predictions_k500.npz": true,
+    "results/submission_64/predictions_k10.npz": true,
+    "results/submission_64/predictions_k100.npz": true,
+    "results/submission_64/predictions_k500.npz": true,
+    "results/submission_fresh_32/predictions_k10.npz": true,
+    "results/submission_fresh_32/predictions_k100.npz": true,
+    "results/submission_fresh_32/predictions_k500.npz": true,
+    "results/submission_fresh_64/predictions_k10.npz": true,
+    "results/submission_fresh_64/predictions_k100.npz": true,
+    "results/submission_fresh_64/predictions_k500.npz": true,
+    "solver/adaptive.py": true,
+    "solver/assemble_fd.py": true,
+    "solver/poisson.py": true,
+    "uncertainty/flux_bounds.py": true,
+    "uncertainty/rank_bounds.py": true
+  },
+  "summary_metric_leaf_differences": [],
+  "summary_protocol_differences": [
+    {
+      "kind": "missing_key",
+      "original": null,
+      "path": "bound_kind",
+      "replay": "poisson"
+    }
+  ],
+  "summary_source_hash_differences": [
+    {
+      "kind": "value",
+      "original": "e661789b5d78f23590a48323cdc126ab874b920794bfef828dfdfe0733117978",
+      "path": "analysis/check_adaptive_rank_stopping.py",
+      "replay": "0d92d8d6a544e4b0377ca1f41888703985d0223f178af0f9c2f258665c794745"
+    },
+    {
+      "kind": "value",
+      "original": "42820d54b4381c4e9557b541bb30c45f2cdc18936ebdd8887566c487e045a93e",
+      "path": "solver/adaptive.py",
+      "replay": "29e53153068c5498903c72ae1eae63f696bd68b5dfae901a83a60842b7c88dc5"
+    },
+    {
+      "kind": "missing_key",
+      "original": null,
+      "path": "uncertainty/flux_bounds.py",
+      "replay": "5bf73a8946ed1dca2da492872bc5df748b759bcb89319a133fb9c06f474fd931"
+    }
+  ]
+}

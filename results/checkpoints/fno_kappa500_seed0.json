@@ -1,0 +1,28 @@
+{
+  "arch": {
+    "in_ch": 3,
+    "modes": 12,
+    "n_layers": 3,
+    "width": 24
+  },
+  "checkpoint": "results/checkpoints/fno_kappa500_seed0.pt",
+  "family": "contrast",
+  "grid_N": 32,
+  "kappa": 500.0,
+  "normalization": {
+    "logmean": 1.1137136056068906,
+    "logstd": 2.3834713334574977,
+    "umean": 0.017442611054029483,
+    "ustd": 0.01623985430290472
+  },
+  "seed": 0,
+  "source_f": "data.generate_contrast.default_rhs: 1 + 0.25*sin(2*pi*x)*sin(pi*y)",
+  "training": {
+    "batch_size": 32,
+    "device": "cpu",
+    "epochs": 80,
+    "lr": 0.001,
+    "n_test": 200,
+    "n_train": 700
+  }
+}

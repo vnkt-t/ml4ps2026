@@ -1,0 +1,10 @@
+{
+  "audit_source_sha256": "c79aa2359fa27844ced4e051e5cb47496270b94d05ce9b1459a6c80cc815ada9",
+  "fields_csv": "results/submission_audit_diagnostics/fields_unet_robustness_k100.csv",
+  "fields_csv_sha256": "8fb34e3cb51bf6775a2117241fb399e6f1c6a6bb415c7a03b6c4009ed5530518",
+  "grid_N": 32,
+  "n_fields": 200,
+  "origin": "Audit-derived post-run diagnostics, not the original experiment ledger",
+  "prediction_cache": "results/unet_robustness/predictions_k100.npz",
+  "prediction_cache_sha256": "4ccae4449f5652f5c54c1d0fd9b5c5e6a90144cf68bd355539e5d308aa18a6e0"
+}

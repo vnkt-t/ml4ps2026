@@ -1,0 +1,30 @@
+{
+  "citation_metadata_fields": 54,
+  "citations": 9,
+  "created_utc": "2026-09-15T23:39:39.158901+00:00",
+  "document_checks": 76,
+  "failures": [],
+  "input_sha256": {
+    "analysis/audit_alternate_manuscript.py": "0e0004271942ae4203bf7943298bf472981bb9d36e617c658b41742dca978025",
+    "analysis/build_robustness_assets.py": "074b53f3c5f195c3d1956bc9fa8425ef324aeb60364abdf217454e3b7bd34710",
+    "paper/draft_ml4ps_alternate.log": "04ada5536483f0333c63ba5ffb6fc332f93aaa391d738e1f135b476106af7fcd",
+    "paper/draft_ml4ps_alternate.pdf": "b4a315aab50af8604a697b96d19d2cd084b91d730bbb85088595fd44deb05950",
+    "paper/draft_ml4ps_alternate.tex": "4feaf4c49552f33ef5b4143f883c7484a811e14214312c9a4b43af2f471e8287",
+    "paper/generated/localization_table.tex": "39000034c4c5ac7eb6402b5971181f559ea12c04d9ff96746ceeca3313982deb",
+    "paper/generated/numbers.tex": "4d1259396f5ff62d2b32a9c84c4981dceb705106d916efeb237e7d02468eff50",
+    "paper/generated/numerical_sources.json": "f3ffbe25426f0621f6f4ae43c1c9f9b98c702ac168135081bf631fe8ac77b903",
+    "paper/generated/robustness_manifest.json": "94ec3a0ac0f9ee6435ddbb18619b66d3e8fa3f0f3cb7a054caebf0741661c7f8",
+    "paper/generated/robustness_numbers.tex": "2f1646f51b4ce1b1817205a6e23ecd5978578df99c557c6a1232733ff19e3bbe",
+    "paper/generated/robustness_table.tex": "d23ea4d0051c425567943bca8531430789c894969d9eb00dda35b5d3761f82f1",
+    "paper/neurips_2026.official.sty": "c3fc2894e83d2517ca18b66741d6c595986d97957dc08ec08bb2125a7ec4555a",
+    "paper/neurips_2026.sty": "79f4dbf4ca8fbc37807b30e90c78382f8cf36e4a806976e5f159db2a179201d9",
+    "results/smooth_robustness/verification.json": "6c7ac25d621eb5122ffb104d2eebbc2a31b6609428920a49bd85ed74ee3de19a"
+  },
+  "pdf": {
+    "last_main_content_page": 4,
+    "reference_start_page": 5,
+    "total_pages": 5
+  },
+  "scope": "Mechanical format, anonymous metadata, generated assets/numbers and citation checks for the alternate manuscript. This does not substitute for visual inspection or experimental verification.",
+  "status": "PASS"
+}

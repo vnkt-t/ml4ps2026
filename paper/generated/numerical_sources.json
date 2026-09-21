@@ -1,0 +1,12 @@
+{
+  "results/adaptive_rank_flux/summary.json": "f0072fd9b2dade5e8c407e11e8a64b2899bbc081dac0645977fabe3f8e394ce7",
+  "results/adaptive_rank_stopping/summary.json": "936d60ba91ecd55533828cdc97fb850645ae230ded9b30d7026f1e1126967193",
+  "results/flux_bounds_all/summary.json": "859e58aaa465105efc0d4b1d5c6a52389685fb1c4203a3adab728dfe5ed06898",
+  "results/rank_bounds_fresh_32/summary.json": "f6e6a6f2ca0705ee3bac66d48ed7c4c247bf97cdbbd142059da6c3c804fe0323",
+  "results/rank_bounds_fresh_64/summary.json": "93c24deb772f0559c6b7307a7da471c7f0607facd0e5a85d2451d43efae8b7b5",
+  "results/submission_fresh_32/summary.json": "1dfa14b35bb5b4e0b22b715ee836452f774bc031be6ec4e7f5f2272ba8a53166",
+  "results/submission_fresh_64/summary.json": "238f792e11a39659458e3fe6b506932f71bfab7caffdd15c2859b273f12da614",
+  "results/submission_longtrain_fresh_32/summary.json": "c744c3d7059831be2d7f117413556a4c505aa83f60cce9aa29cd79576786d043",
+  "results/submission_timing_flux/benchmark.json": "cb80c9614c6588f514df39fcbb09908bd53102826b3e8d86173c33b55093bcee",
+  "results/unet_robustness/summary.json": "616e4e671229f68c69f1eec6e66b03a9ef7f8de2272e31ebb7df01128dc2356b"
+}

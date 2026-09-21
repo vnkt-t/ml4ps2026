@@ -1,0 +1,57 @@
+{
+  "configuration": {
+    "N": 32,
+    "batch_size": 32,
+    "bootstrap": 5000,
+    "bootstrap_seed": 20260915,
+    "epochs": 80,
+    "kappa": 100.0,
+    "layers": 3,
+    "lengthscale": 0.12,
+    "lr": 0.001,
+    "modes": 12,
+    "n_test": 200,
+    "n_train": 700,
+    "out": "results/smooth_robustness",
+    "pilot_epochs": 0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "test_seed": 20260914,
+    "train_seed": 20260913,
+    "width": 24
+  },
+  "created_utc": "2026-09-12T17:45:09.796389+00:00",
+  "experiment": "matched_smooth_fno_robustness",
+  "protocol_sha256": "074a0a0d2572b7b24268346e46f0c2207b3bfc293dab01cf91dc45b6e6f10bbf",
+  "source_sha256": {
+    "analysis/metrics.py": "02e318e0656fdf5743ce6e6bb146d6989c327e3751fe5af5133818cc801e7d44",
+    "data/generate_contrast.py": "87ddb565fbc57cb86027138df6bbd6bce927c692ad4762fd863df2d656996bc1",
+    "data/generate_grf.py": "4c691e1a95c09c75b9b410e7334dc476045ab9495b04b19eaad4a120459f0593",
+    "data/generate_smooth.py": "fac6b76dc871b4b4012aac11ec41582dabd17a5ef33ae4a076a34e1c18b24e92",
+    "experiments/SMOOTH_ROBUSTNESS_PROTOCOL.md": "074a0a0d2572b7b24268346e46f0c2207b3bfc293dab01cf91dc45b6e6f10bbf",
+    "experiments/exp0_pilot_fno.py": "e3949012716ffecb93a7885287c9aa6bdb8c98d500ad9badbbc87d5834a7b95a",
+    "experiments/exp_flux_bounds.py": "658ed0bc1eb4ff8ebd4c329a0e838852f501c1d9b3e982fbae6d3620e63921e5",
+    "experiments/exp_real_fno_multi_kappa.py": "694fd7039b6d8c7ff088147a25ba17cce9dd7b7f2074a34296648f3d729fd3f2",
+    "experiments/exp_smooth_robustness.py": "ecd783a19b470f98a016a92b8a23ef9d97fa9778518eacaa14a815d2eb0299a6",
+    "experiments/exp_submission_validation.py": "4ca1bdeb77a9ee33d24fb6e4250a4ff277b2decfe9db370b55d41f8d85479136",
+    "experiments/exp_unet_robustness.py": "a0d84af8c534efa9651817b55212fa1da396cc7fac446e6382261f0545961ec2",
+    "models/tiny_fno.py": "3b6ad164d8719c0731a8ddc3b2bfbb537bd6f2ebe6c2bd3673d0d1527c2c154e",
+    "solver/assemble_fd.py": "71126dd84b02ac12590093eb2cbdf356f68fc3e16609a7f5e408bb26b76fd7df",
+    "solver/diagnostics.py": "0df5890af4c1d29fed6cdc21d88871b481d69367aa1517d0d297b05bdaec48b4",
+    "solver/multigrid.py": "f6d71282050b9600ad9c12b9774bda1a5dabd502fda1843d2c83087daa73724a",
+    "solver/poisson.py": "69860694a1e9a0494879a932705d140e380e99a84f6116f300e27b44d2f2fe4f",
+    "solver/relaxation.py": "24f9a625d593115bae76b54770faa505bd76324c14c2d3511650fa6ceb321e4d",
+    "solver/solve.py": "bf53292ca26cdd0c98d68628c912afc8012aeb15e4e9297315ffdd6259574b85",
+    "uncertainty/flux_bounds.py": "5bf73a8946ed1dca2da492872bc5df748b759bcb89319a133fb9c06f474fd931",
+    "uncertainty/rank_bounds.py": "d358d579e273c17325decb786ba2fb2eb90ef0b11b614008e66d8e8c03da1ffe"
+  },
+  "versions": {
+    "numpy": "2.0.2",
+    "python": "3.9.6",
+    "scipy": "1.13.1",
+    "torch": "2.8.0"
+  }
+}

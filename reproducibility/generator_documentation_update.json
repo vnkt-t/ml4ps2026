@@ -1,0 +1,9 @@
+{
+  "scope": "Documentation correction only; cached input signatures retain the exact earlier source hash. All executable Python AST nodes are unchanged. Existing prediction caches remain immutable; replay into a fresh output directory.",
+  "original_source": "reproducibility/source_snapshots/data/generate_contrast.py",
+  "original_sha256": "1576601da2d57ef44d8b05bde3377a8e364e52d7bcdd36034b08bdbafef17fb5",
+  "current_source": "data/generate_contrast.py",
+  "current_sha256": "87ddb565fbc57cb86027138df6bbd6bce927c692ad4762fd863df2d656996bc1",
+  "executable_ast_sha256": "5c8ddec8850b35e04e5ff76e1081957fc89d6c8c0a2ccf8705465529f143ee8e",
+  "executable_ast_equal": true
+}

@@ -1,0 +1,1243 @@
+seed=0 epoch=1/80 training_mse=0.954417 seconds=1.56
+seed=0 epoch=2/80 training_mse=0.559049 seconds=1.51
+seed=0 epoch=3/80 training_mse=0.170658 seconds=1.51
+seed=0 epoch=10/80 training_mse=0.046558 seconds=1.53
+seed=0 epoch=20/80 training_mse=0.015062 seconds=1.56
+seed=0 epoch=30/80 training_mse=0.008251 seconds=1.65
+seed=0 epoch=40/80 training_mse=0.005367 seconds=1.65
+seed=0 epoch=50/80 training_mse=0.004364 seconds=1.92
+seed=0 epoch=60/80 training_mse=0.003672 seconds=1.67
+seed=0 epoch=70/80 training_mse=0.003368 seconds=1.68
+seed=0 epoch=80/80 training_mse=0.003313 seconds=1.59
+seed=1 epoch=1/80 training_mse=0.972686 seconds=1.95
+seed=1 epoch=2/80 training_mse=0.623277 seconds=1.61
+seed=1 epoch=3/80 training_mse=0.185812 seconds=1.58
+seed=1 epoch=10/80 training_mse=0.043557 seconds=1.58
+seed=1 epoch=20/80 training_mse=0.014573 seconds=1.70
+seed=1 epoch=30/80 training_mse=0.007153 seconds=1.91
+seed=1 epoch=40/80 training_mse=0.005062 seconds=1.84
+seed=1 epoch=50/80 training_mse=0.004113 seconds=1.98
+seed=1 epoch=60/80 training_mse=0.003505 seconds=1.94
+seed=1 epoch=70/80 training_mse=0.003229 seconds=2.08
+seed=1 epoch=80/80 training_mse=0.003173 seconds=1.63
+seed=2 epoch=1/80 training_mse=0.961859 seconds=1.64
+seed=2 epoch=2/80 training_mse=0.607575 seconds=1.68
+seed=2 epoch=3/80 training_mse=0.187877 seconds=1.67
+seed=2 epoch=10/80 training_mse=0.037019 seconds=3.45
+seed=2 epoch=20/80 training_mse=0.010670 seconds=2.22
+seed=2 epoch=30/80 training_mse=0.006579 seconds=1.88
+seed=2 epoch=40/80 training_mse=0.004699 seconds=1.89
+seed=2 epoch=50/80 training_mse=0.004022 seconds=2.02
+seed=2 epoch=60/80 training_mse=0.003292 seconds=2.76
+seed=2 epoch=70/80 training_mse=0.003093 seconds=2.58
+seed=2 epoch=80/80 training_mse=0.003038 seconds=1.88
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 25/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 50/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 75/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 100/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 125/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 150/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 175/200
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: divide by zero encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: overflow encountered in matmul
+  total_energy = float(error @ (A @ error))
+experiments/exp_smooth_robustness.py:163: RuntimeWarning: invalid value encountered in matmul
+  total_energy = float(error @ (A @ error))
+smooth evaluation 200/200
+PASS: matched smooth-family training, fresh evaluation, identity, energy and enclosure checks
+{'raw': -0.04069, 'prediction_magnitude': 0.47665, 'boundary_distance': 0.42391, 'ensemble': 0.26274, 'poisson_pcg5': 0.94575, 'poisson_pcg10': 0.99448, 'poisson_pcg20': 0.99994, 'poisson_pcg40': 1.0, 'poisson_pcg80': 1.0, 'cg20': 0.55158, 'diagonal_pcg20': 0.87445, 'amg': 0.99513}

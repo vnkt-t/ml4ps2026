@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "citations": 9,
+  "metadata_fields_checked": 54,
+  "failures": [],
+  "records": {
+    "anwer2026pointwise": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "url": true,
+        "eprint": true
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2607.03431"
+      ],
+      "version_note": ""
+    },
+    "bell2023pyamg": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "doi": true,
+        "url": true,
+        "pages": true,
+        "volume": true
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.21105/joss.05495",
+        "https://doi.org/10.21105/joss.05495"
+      ],
+      "version_note": ""
+    },
+    "cao2022residualbasederrorcorrectionneural": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "url": true,
+        "eprint": true
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2210.03008"
+      ],
+      "version_note": "Cites 2022 arXiv version; bibliography explicitly notes 2023 JCP publication."
+    },
+    "ern2011unified": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "doi": true,
+        "url": true,
+        "pages": true
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1007/978-3-642-20671-9_85",
+        "https://doi.org/10.1007/978-3-642-20671-9_85"
+      ],
+      "version_note": ""
+    },
+    "gopakumar2025calibratedphysicsinformeduncertaintyquantification": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "url": true,
+        "eprint": true
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2502.04406"
+      ],
+      "version_note": ""
+    },
+    "jha2023residualbasederrorcorrectoroperator": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "doi": true,
+        "url": true,
+        "pages": true,
+        "volume": true
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1016/j.cma.2023.116595",
+        "https://doi.org/10.1016/j.cma.2023.116595"
+      ],
+      "version_note": ""
+    },
+    "li2020posteriorierrorestimatesfinite": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "doi": true,
+        "url": true,
+        "pages": true,
+        "volume": true
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1016/j.camwa.2020.08.001",
+        "https://doi.org/10.1016/j.camwa.2020.08.001"
+      ],
+      "version_note": ""
+    },
+    "li2021fourier": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "url": true,
+        "eprint": true
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2010.08895",
+        "https://openreview.net/pdf/53c47f849d1cd4d21b865caf7d774e07a5c42aa4.pdf"
+      ],
+      "version_note": "ICLR 2021 paper and 2021 arXiv revision; first arXiv version was 2020."
+    },
+    "ronneberger2015unet": {
+      "fields": {
+        "title": true,
+        "author": true,
+        "year": true,
+        "url": true,
+        "doi": true,
+        "volume": true,
+        "pages": true
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/1505.04597",
+        "https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28"
+      ],
+      "version_note": ""
+    }
+  },
+  "scope": "All cited titles, ordered full author lists, chosen years, URLs and listed identifiers/publication details; typography normalized",
+  "input_sha256": {
+    "paper/draft_ml4ps_alternate.tex": "4feaf4c49552f33ef5b4143f883c7484a811e14214312c9a4b43af2f471e8287",
+    "paper/references.bib": "30c47d6a16e4972e4369a846d4003f2b60d77cd3be46acaf888df90d863abf88",
+    "paper/citations_primary_snapshot.json": "1a7d5f791673a796b81be55828b91824e5c007a9cc1dfbf987403ea138186cf9",
+    "analysis/audit_submission_citations.py": "4eb7e54d26802cc7333cd4426b52455726062e4329375575f7728c31d9c3e237"
+  }
+}

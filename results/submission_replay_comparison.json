@@ -1,0 +1,261 @@
+{
+  "experiment": "complete_frozen_checkpoint_replay_comparison",
+  "failures": [],
+  "n_fields": 1200,
+  "per_configuration": {
+    "N32_k10": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "f7664e867bf3bcc31d155e3e45f57774db320e63925bba78804feffdd0f251f1",
+      "replay_cache_sha256": "f690c7538e8bd1d43fab095a8fd990b6f38a7e98da7e256e90e738c8de24ef8e",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 1.6653345369377348e-16,
+          "original_sha256": "40eeba5acb388ecff68f223c41eba7a62f08ab05e7b4be8597a82e7dc91617b8",
+          "replay_sha256": "ffb9ad6e6084ff458cf88802a93843fc00a26a0291fa6deedd4d21921bfd7c2a",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "674a6e6423306ffeb5dffc487315e4f4b47e2ed1993b825b01cc7a2b301a3351",
+          "replay_sha256": "674a6e6423306ffeb5dffc487315e4f4b47e2ed1993b825b01cc7a2b301a3351",
+          "rows": 600
+        }
+      }
+    },
+    "N32_k100": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "b957198961e6fd743cf5d2b44e87cbb89014f8acb694980de2b4fd1877e0cab1",
+      "replay_cache_sha256": "5b673b327a619c1e3684960ace7c48a73e04f5ea7143797e5a2af30fd2329530",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 1.6653345369377348e-16,
+          "original_sha256": "15ac114e3d211d4c70f255964009c20b8022bcb6b3d3e0eee61ca58131aa8af9",
+          "replay_sha256": "ddcd3af2892ec180efe281873cecb8faa164f4ec85d870590609dfe9679e755d",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "5514fb657fb97d879fdd43d3095baa6405ff1e01227b67dbef411e4664e15cbb",
+          "replay_sha256": "5514fb657fb97d879fdd43d3095baa6405ff1e01227b67dbef411e4664e15cbb",
+          "rows": 600
+        }
+      }
+    },
+    "N32_k500": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "70bef16cb87d04567b143ca173f8325f5eddc756fb164f8016283c8d4a76bb4d",
+      "replay_cache_sha256": "b18a11f4385d9c9ee9554f49e2910d42cc5f335115a4141d76cbf800b361a625",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 2.220446049250313e-16,
+          "original_sha256": "68340adbd383b5fe0e22e3aaae2661868ac403225424778569291cb172974d43",
+          "replay_sha256": "738d6bcad2c10a799c88ae66b3e9452ca97888ac29db9c83b76fda2102123b15",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "88c65a38ba67e91e6137785eaaa2ab4168e35b068e214ac6fc78836527339ea9",
+          "replay_sha256": "88c65a38ba67e91e6137785eaaa2ab4168e35b068e214ac6fc78836527339ea9",
+          "rows": 600
+        }
+      }
+    },
+    "N64_k10": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "1b1446ae7b324b054e80f4d04a2aac63ee8eb2c033ad0ecf45ef47c72cdef866",
+      "replay_cache_sha256": "4555a50d578cf447af7dc2cbbfed6a158491f6be9d18074c7670c8168da1de5f",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "18a7a639fc836121d38b9e427ba95fb24a1b445750712a57e12e95f42fd11663",
+          "replay_sha256": "18a7a639fc836121d38b9e427ba95fb24a1b445750712a57e12e95f42fd11663",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "dbfea60469b080cd617b1bfd0b34171a29fff93c271869f45c43cdbd223192fb",
+          "replay_sha256": "dbfea60469b080cd617b1bfd0b34171a29fff93c271869f45c43cdbd223192fb",
+          "rows": 600
+        }
+      }
+    },
+    "N64_k100": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "2aad18bebf4939c63f3aa2f6b79e114f8ced7bb81b9e398948af44f365d30153",
+      "replay_cache_sha256": "c19fad85e77a53b5828af43977f5489a0a0e913bd89a531e88e6308238839ee8",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "f56669dca318e4a1eed05017c69fae88686beec639446c88d0d716e5d36b166b",
+          "replay_sha256": "f56669dca318e4a1eed05017c69fae88686beec639446c88d0d716e5d36b166b",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "347fcc7a68edb36ee626ef806d30c5c0ef7af8ddfcaa642b588cdbee5be58566",
+          "replay_sha256": "347fcc7a68edb36ee626ef806d30c5c0ef7af8ddfcaa642b588cdbee5be58566",
+          "rows": 600
+        }
+      }
+    },
+    "N64_k500": {
+      "arrays": {
+        "a": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "f": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "members": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        },
+        "u": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "original_cache_sha256": "a837262c3733fcf86530a85711c14d058cf8fde5ee4fc62ac2f3a6e532c195ec",
+      "replay_cache_sha256": "5280fbf9991d5b83c4b120296e65f16354bbc9cbf540b74dda02724898568d25",
+      "signature_fields_changed": [
+        "generator_sha256"
+      ],
+      "tables": {
+        "metrics": {
+          "columns": 8,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "91c28e7e44b03d286cdddc69e72e77c4b809b759af36e7e8e52243ea8065d984",
+          "replay_sha256": "91c28e7e44b03d286cdddc69e72e77c4b809b759af36e7e8e52243ea8065d984",
+          "rows": 5800
+        },
+        "norms": {
+          "columns": 3,
+          "max_absolute_difference": 0.0,
+          "original_sha256": "04687d7bb4a2806daf61c91ad964057fb28d6b833dc357bddfe726dc8510f5ff",
+          "replay_sha256": "04687d7bb4a2806daf61c91ad964057fb28d6b833dc357bddfe726dc8510f5ff",
+          "rows": 600
+        }
+      }
+    }
+  },
+  "scope": "Regenerated fresh coefficients, forcing, truth and all frozen-member predictions; all retained per-field scores and correction metrics. Wall times are not reproducibility targets.",
+  "source_sha256": {
+    "analysis/compare_submission_replay.py": "a01a0ba4ac27e41f149b5c724f0f0633e036ce7c30a93713208bbc73e7375fa2",
+    "data/generate_contrast.py": "87ddb565fbc57cb86027138df6bbd6bce927c692ad4762fd863df2d656996bc1",
+    "experiments/exp_real_fno_multi_kappa.py": "694fd7039b6d8c7ff088147a25ba17cce9dd7b7f2074a34296648f3d729fd3f2",
+    "experiments/exp_submission_validation.py": "4ca1bdeb77a9ee33d24fb6e4250a4ff277b2decfe9db370b55d41f8d85479136"
+  },
+  "status": "PASS"
+}

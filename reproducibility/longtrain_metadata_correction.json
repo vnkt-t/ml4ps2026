@@ -1,0 +1,9 @@
+{
+  "artifact": "results/fno_longtrain_kappa100.json",
+  "field": "config.checkpoint_dir",
+  "old_value": "results/checkpoints",
+  "corrected_value": "results/checkpoints_longtrain",
+  "reason": "Aggregate writer used constant default directory despite successful custom-directory checkpoint saves. Corrected metadata only; scientific arrays and metrics are unchanged.",
+  "original_sha256": "b26d9821a02c22753f65c1d496d124a77c37d5001ae0a8a0668d9f65e74a628c",
+  "corrected_sha256": "1f0f6624cd3048486da121fd49e5e8ee377bff6870e6d8c9c365684e2e1a6bb1"
+}

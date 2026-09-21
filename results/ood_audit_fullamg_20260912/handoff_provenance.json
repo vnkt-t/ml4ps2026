@@ -1,0 +1,30 @@
+{
+  "audited_artifact_sha256": {
+    "results/ood_audit_fullamg_20260912/audit.json": "2b3551353373f64d2bfe7bcaeefe9d093f7ac2db5d652f3561cfaa75b6fe7a72",
+    "results/ood_audit_fullamg_20260912/id_risk_controls.json": "eb1f9647c955ebbfc946d5ddd130361102f3c973b1ef8e1e9740ce9d964f54dc",
+    "results/ood_audit_fullamg_20260912/rung4_refreshed.npz": "3dbdb6a1f71ba7f3f6a0dd17c84d03f8e111b7145677e22de46b2b82c1c02ccb"
+  },
+  "full_amg_source_sha256": {
+    "solver/assemble_fd.py": "71126dd84b02ac12590093eb2cbdf356f68fc3e16609a7f5e408bb26b76fd7df",
+    "solver/multigrid.py": "8541a9ead5de4da06b8d198e998f0818ddc1d0887505e5b12627213ea9c3eac9",
+    "solver/relaxation.py": "0c5a12e3980adaab424954cfe0b5eca654d0fcf830cff1d2aa9638c1c7efad74"
+  },
+  "historical_input_sha256": {
+    "results/exp10_ood_abstention.json": "166c098fb5269717168c93e7ac34ece8a29378bb4ce9c04d4d65fb6cba0228d7",
+    "results/exp9_ood_conformal.json": "4d8b79fe176f127a0e34a5ea1aa36327a98b3c5321b84c512d8aebe21172a84e",
+    "results/ood_features_bundle.npz": "17941221fabba420c672a78279f3d8ed284887f61767634d89b2985087ca7137"
+  },
+  "pyamg_version": "5.3.0",
+  "risk_control_source_sha256": {
+    "analysis/audit_ood_protocol.py": "93936fdd7d3ca9d01f8a2f1a957ee6ee74bbf8d8f78d4783d7a6348382076649",
+    "analysis/check_id_risk_controls.py": "2052b8d19a1212343d2cb308d00af291b586fd294adf93dba7d7e7c119ef6a48",
+    "experiments/exp10_ood_abstention.py": "40003242df02aa376f4c29969e329129472ab52dc8765a9556ac297f6a946af4",
+    "experiments/exp7_weighted_cp.py": "7a346d7ae0d92f027618592d9b6382e14fb76b183c5d3a5ce5b34992a67ca96c",
+    "experiments/exp8_abstention.py": "9374102b3c4eabd11d029d85cef9c33d3eeee0603cefa57f8cce383adae6f9d0"
+  },
+  "risk_control_versions": {
+    "numpy": "2.0.2",
+    "python": "3.9.6",
+    "sklearn": "1.6.1"
+  }
+}

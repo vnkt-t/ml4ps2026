@@ -1,0 +1,124 @@
+{
+  "audit_source_sha256": "c79aa2359fa27844ced4e051e5cb47496270b94d05ce9b1459a6c80cc815ada9",
+  "numpy_version": "2.0.2",
+  "origin": "Audit-derived post-run diagnostics, not the original experiment ledger",
+  "per_configuration": {
+    "submission_32_k10": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_32_k10.csv",
+      "fields_csv_sha256": "c3345d8d6b4de3b4a68318c4da2162a7e1c61b6a4013d57d2bff1e3aeb06e129",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_32/predictions_k10.npz",
+      "prediction_cache_sha256": "af38d05866bceb182b945675d3e956e83d4d550689c5ecb34910f786516c8582"
+    },
+    "submission_32_k100": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_32_k100.csv",
+      "fields_csv_sha256": "40db3f3826e832dcd40a925fa327b721cc7ff07b3698e517379d0dbe27795972",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_32/predictions_k100.npz",
+      "prediction_cache_sha256": "ab863eb280a26d84922d14790652fe044f2449f841578452ae2b19b16116d4e6"
+    },
+    "submission_32_k500": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_32_k500.csv",
+      "fields_csv_sha256": "1e25ee5c13202f4f4a65397ea6a01b13e3b8169c038612945a0a81f1ee5014ee",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_32/predictions_k500.npz",
+      "prediction_cache_sha256": "afeb327a8860bab20af26c67b37ae825708f8564c60ce675b60f282b0929707f"
+    },
+    "submission_64_k10": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_64_k10.csv",
+      "fields_csv_sha256": "7c6a873445fa448c39b8567459d716d863450d734a115e5729a8c3763e6a4de4",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_64/predictions_k10.npz",
+      "prediction_cache_sha256": "f8b59a476de23fbcdfab07205e189dda5cf75f3c37cd063a9225a8585a1a4a56"
+    },
+    "submission_64_k100": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_64_k100.csv",
+      "fields_csv_sha256": "b24dcfb9721009f21ab2c8ed6abc5af49c1fbc0ef115c700fbebf91a4f47c9f0",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_64/predictions_k100.npz",
+      "prediction_cache_sha256": "cd0c845ccbf827001a1ff45b38d307569df36867280c3c60321e6ba562643f90"
+    },
+    "submission_64_k500": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_64_k500.csv",
+      "fields_csv_sha256": "35c67e45f10f1d748afd4beb953eea5692c0f7f02b0b1859e08873789edd424a",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_64/predictions_k500.npz",
+      "prediction_cache_sha256": "6958efa7965f3e2df7f32407c58b096ff1df6c56bbce2fac59cfbc6fa2672edd"
+    },
+    "submission_fresh_32_k10": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_32_k10.csv",
+      "fields_csv_sha256": "24015887c1a51b92ee9814b5da466d94b7af49180cbd938112510572b755a96d",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_32/predictions_k10.npz",
+      "prediction_cache_sha256": "f7664e867bf3bcc31d155e3e45f57774db320e63925bba78804feffdd0f251f1"
+    },
+    "submission_fresh_32_k100": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_32_k100.csv",
+      "fields_csv_sha256": "126ef13a4c48c8441f27734ccb84c8a5c6ca49800074771407c5c94ffcf63f25",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_32/predictions_k100.npz",
+      "prediction_cache_sha256": "b957198961e6fd743cf5d2b44e87cbb89014f8acb694980de2b4fd1877e0cab1"
+    },
+    "submission_fresh_32_k500": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_32_k500.csv",
+      "fields_csv_sha256": "7573af9b36eda74f69103ff1755b5964764032c54dc2e50fee15d9d7115ee7c2",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_32/predictions_k500.npz",
+      "prediction_cache_sha256": "70bef16cb87d04567b143ca173f8325f5eddc756fb164f8016283c8d4a76bb4d"
+    },
+    "submission_fresh_64_k10": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_64_k10.csv",
+      "fields_csv_sha256": "bbcd97d0c5c492382b10770d93fd771d41a5a31d45f2cb95227b4b5d9f058866",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_64/predictions_k10.npz",
+      "prediction_cache_sha256": "1b1446ae7b324b054e80f4d04a2aac63ee8eb2c033ad0ecf45ef47c72cdef866"
+    },
+    "submission_fresh_64_k100": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_64_k100.csv",
+      "fields_csv_sha256": "93cc628d3a7f4672373580924e742c25c66b4fd7a2e103c5865a6ca89550f473",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_64/predictions_k100.npz",
+      "prediction_cache_sha256": "2aad18bebf4939c63f3aa2f6b79e114f8ced7bb81b9e398948af44f365d30153"
+    },
+    "submission_fresh_64_k500": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_fresh_64_k500.csv",
+      "fields_csv_sha256": "77cbe068d4bb168c223ea112d5dbd9d6d19d50d069d1bd57e87cb2ecaab50801",
+      "grid_N": 64,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_fresh_64/predictions_k500.npz",
+      "prediction_cache_sha256": "a837262c3733fcf86530a85711c14d058cf8fde5ee4fc62ac2f3a6e532c195ec"
+    },
+    "submission_longtrain_fresh_32_k100": {
+      "fields_csv": "results/submission_audit_diagnostics/fields_submission_longtrain_fresh_32_k100.csv",
+      "fields_csv_sha256": "a91c6ad5f9a2094143779a419e9c24ed2bb5cdcfabcadd6c4ebaed1e9a4a2f8d",
+      "grid_N": 32,
+      "n_fields": 200,
+      "origin": "independent audit recomputation from frozen cache",
+      "prediction_cache": "results/submission_longtrain_fresh_32/predictions_k100.npz",
+      "prediction_cache_sha256": "e8453cc4f76c73cbc0edce569578e5a32b91139805670431f9ba966d44516f69"
+    }
+  }
+}

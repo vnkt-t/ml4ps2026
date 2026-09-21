@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "analysis/build_robustness_assets.py": "074b53f3c5f195c3d1956bc9fa8425ef324aeb60364abdf217454e3b7bd34710",
+    "results/smooth_robustness/summary.json": "8abe737d27ed6a7a50daea14d03d3e12be66affcc0b41ee10dba829a46cd7ec2",
+    "results/smooth_robustness/verification.json": "6c7ac25d621eb5122ffb104d2eebbc2a31b6609428920a49bd85ed74ee3de19a",
+    "results/submission_fresh_32/summary.json": "1dfa14b35bb5b4e0b22b715ee836452f774bc031be6ec4e7f5f2272ba8a53166",
+    "results/submission_longtrain_fresh_32/summary.json": "c744c3d7059831be2d7f117413556a4c505aa83f60cce9aa29cd79576786d043",
+    "results/unet_robustness/summary.json": "616e4e671229f68c69f1eec6e66b03a9ef7f8de2272e31ebb7df01128dc2356b"
+  },
+  "outputs": {
+    "paper/generated/robustness_numbers.tex": "2f1646f51b4ce1b1817205a6e23ecd5978578df99c557c6a1232733ff19e3bbe",
+    "paper/generated/robustness_table.tex": "d23ea4d0051c425567943bca8531430789c894969d9eb00dda35b5d3761f82f1"
+  },
+  "scope": "Independent smooth-family retraining; intervals conditional on each trained ensemble. Binary/smooth comparisons are descriptive and unpaired."
+}

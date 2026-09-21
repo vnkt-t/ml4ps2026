@@ -1,0 +1,24 @@
+{
+  "artifact_only": false,
+  "audit_source_sha256": "02125f5c17d6ebaefd9274b7f9ae188bb1a4a68c5b3afeebfadf9fbdf049b0bf",
+  "benchmark": "results/submission_timing_flux/benchmark.json",
+  "benchmark_sha256": "cb80c9614c6588f514df39fcbb09908bd53102826b3e8d86173c33b55093bcee",
+  "checks": {
+    "adaptive_field_methods": 360,
+    "configurations": 6,
+    "direct_flux_comparisons": 6,
+    "method_confidence_intervals": 120,
+    "previous_localization_comparisons": 114,
+    "raw_rows": 10800
+  },
+  "full_verification_passed": true,
+  "historical_source_snapshots_verified": true,
+  "prediction_cache_hash_checks_performed": 6,
+  "prediction_caches_verified": true,
+  "previous_benchmark": "results/submission_timing_singlethread/benchmark.json",
+  "raw_csv_sha256": "835e7a87a905c3fd200a2b97168fd2ccbba83534dafe6a109caba310090128c2",
+  "scope": "artifact/statistical replay; not an independent wall-time rerun or a proof of machine idleness",
+  "skipped_inputs": [],
+  "status": "PASS",
+  "working_source_changes_since_timing": []
+}

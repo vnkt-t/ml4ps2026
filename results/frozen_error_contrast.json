@@ -1,0 +1,57 @@
+{
+  "experiment": "frozen_error_contrast",
+  "n_fields": 200,
+  "grid_N": 32,
+  "source_predictions": "results/submission_v1_32/predictions_k100.npz",
+  "source_sha256": "3e4fe772306b9d4e8f1c1da08720e74cce131272e804ad6cd62aa13b73526df6",
+  "protocol": "Freeze the learned error and binary inclusion/channel geometry; vary only A. Algebraic diagnostic, not forcing or coefficient generalization of the learned predictor.",
+  "bootstrap": "5000 paired field resamples, seed 20260912",
+  "per_operator_kappa": {
+    "1": {
+      "mean": 0.27820706561583575,
+      "ci95_low": 0.2692321150160262,
+      "ci95_high": 0.287010957503431
+    },
+    "2": {
+      "mean": 0.28218907904030466,
+      "ci95_low": 0.27201843206852155,
+      "ci95_high": 0.29218485052398113
+    },
+    "5": {
+      "mean": 0.269098081212896,
+      "ci95_low": 0.2562294198991041,
+      "ci95_high": 0.28178145441106456
+    },
+    "10": {
+      "mean": 0.2593485772543988,
+      "ci95_low": 0.2445992414705672,
+      "ci95_high": 0.27389094678715753
+    },
+    "50": {
+      "mean": 0.24914537843770113,
+      "ci95_low": 0.2321652115231162,
+      "ci95_high": 0.26572793649081783
+    },
+    "100": {
+      "mean": 0.24758548599438523,
+      "ci95_low": 0.2303577145964836,
+      "ci95_high": 0.26448322237685296
+    },
+    "500": {
+      "mean": 0.24644614158277303,
+      "ci95_low": 0.22899250260537737,
+      "ci95_high": 0.2635478951149104
+    }
+  },
+  "paired_k500_minus_k10": {
+    "mean": -0.012902435671625774,
+    "ci95_low": -0.016343120802059484,
+    "ci95_high": -0.00963607257310144
+  },
+  "paired_k500_minus_k100": {
+    "mean": -0.001139344411612185,
+    "ci95_low": -0.001502227490098164,
+    "ci95_high": -0.0007810243212328324
+  },
+  "fraction_fields_monotonically_nonincreasing": 0.335
+}

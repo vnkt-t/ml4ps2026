@@ -1,0 +1,7 @@
+condition,n_fields,grid_N,kappa,baseline_mean_iterations,flux_mean_iterations,fraction_stopping_earlier,fraction_stopping_later,baseline_target_met_fraction,flux_target_met_fraction,flux_relative_l2_correction_error,flux_false_high_total,flux_false_low_total,mean_flux_minus_poisson,ci95_low,ci95_high
+submission_fresh_32_k10,200,32,10.0,13.675,12.7,0.195,0.0,1.0,1.0,0.0003471839027336021,0,0,-0.975,-1.25,-0.7
+submission_fresh_32_k100,200,32,100.0,25.1,24.0,0.22,0.0,1.0,1.0,0.0002467772532508109,0,0,-1.1,-1.4,-0.825
+submission_fresh_32_k500,200,32,500.0,31.5,30.05,0.29,0.0,1.0,1.0,0.0002508603891866767,0,0,-1.45,-1.775,-1.15
+submission_fresh_64_k10,200,64,10.0,14.35,13.525,0.165,0.0,1.0,1.0,0.00018358920065616397,0,0,-0.825,-1.075,-0.575
+submission_fresh_64_k100,200,64,100.0,26.375,25.225,0.23,0.0,1.0,1.0,0.00010887432305384161,0,0,-1.15,-1.45,-0.85
+submission_fresh_64_k500,200,64,500.0,33.475,32.1,0.275,0.0,1.0,1.0,0.00013091296843400894,0,0,-1.375,-1.675,-1.075

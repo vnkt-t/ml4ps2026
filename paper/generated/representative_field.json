@@ -1,0 +1,10 @@
+{
+  "sample": 2,
+  "rule": "closest to median raw Spearman on fresh kappa100/32 fields",
+  "raw_rho": 0.2528329183355983,
+  "correction_rho": 0.9999189525069736,
+  "membership_bound": "equilibrated flux, strict top-10 separation",
+  "inside_cells": 69,
+  "outside_cells": 819,
+  "unresolved_cells": 136
+}

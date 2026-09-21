@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "fixed_epochs": 200,
+      "fno_training_normalization_exact_match": true,
+      "max_abs_prediction_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "fixed_epochs": 200,
+      "fno_training_normalization_exact_match": true,
+      "max_abs_prediction_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "fixed_epochs": 200,
+      "fno_training_normalization_exact_match": true,
+      "max_abs_prediction_difference": 0.0,
+      "seed": 2
+    }
+  ],
+  "experiment": "unet_checkpoint_prediction_verification",
+  "fresh_fields_match_fno_cache_exactly": true,
+  "input_sha256": {
+    "results/unet_robustness/predictions_k100.npz": "4ccae4449f5652f5c54c1d0fd9b5c5e6a90144cf68bd355539e5d308aa18a6e0",
+    "results/unet_robustness/summary.json": "616e4e671229f68c69f1eec6e66b03a9ef7f8de2272e31ebb7df01128dc2356b",
+    "results/unet_robustness/unet_k100_seed0.pt": "24f46574ad1e3ebd82eed40a879da59850b4c69aafd3cf9c0db3965a3da75739",
+    "results/unet_robustness/unet_k100_seed1.pt": "5f87478f712cf43d2a8a5bd1d1db7cc43b03c99e54e35bc8bbfd4b57d46d7f44",
+    "results/unet_robustness/unet_k100_seed2.pt": "e76aed125079a09e87184b1ed0136c7c1ff2c420d4b9e7eccffeeaa2a6f90daa"
+  },
+  "n_fields": 200,
+  "scope": "exact same-environment checkpoint/prediction consistency, not a retraining or generalization guarantee",
+  "verification_source_sha256": "d52c9319b2c714ff804b1fe192b079d9fae24152e85033d2a82f8ad7b470b04f"
+}

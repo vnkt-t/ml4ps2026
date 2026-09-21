@@ -1,0 +1,131 @@
+{
+  "checked_date": "2026-09-12",
+  "provenance": "Primary arXiv/publisher records were visually rechecked for the feedback revision; publisher-deposited Crossref records retained from the earlier same-day independent audit provide structured journal metadata. No bibliography entry was changed.",
+  "records": {
+    "cao2022residualbasederrorcorrectionneural": {
+      "fields": {
+        "title": "Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems",
+        "author": "Cao, Lianghao and O'Leary-Roseberry, Thomas and Jha, Prashant K. and Oden, J. Tinsley and Ghattas, Omar",
+        "year": "2022",
+        "url": "https://arxiv.org/abs/2210.03008",
+        "eprint": "2210.03008"
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2210.03008"
+      ],
+      "version_note": "Cites 2022 arXiv version; bibliography explicitly notes 2023 JCP publication."
+    },
+    "gopakumar2025calibratedphysicsinformeduncertaintyquantification": {
+      "fields": {
+        "title": "Calibrated Physics-Informed Uncertainty Quantification",
+        "author": "Gopakumar, Vignesh and Gray, Ander and Zanisi, Lorenzo and Nunn, Timothy and Giles, Daniel and Kusner, Matt J. and Pamela, Stanislas and Deisenroth, Marc Peter",
+        "year": "2025",
+        "url": "https://arxiv.org/abs/2502.04406",
+        "eprint": "2502.04406"
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2502.04406"
+      ]
+    },
+    "ern2011unified": {
+      "fields": {
+        "title": "A Unified Framework for a posteriori Error Estimation in Elliptic and Parabolic Problems with Application to Finite Volumes",
+        "author": "Alexandre Ern and Martin Vohralı́k",
+        "year": "2011",
+        "doi": "10.1007/978-3-642-20671-9_85",
+        "url": "https://doi.org/10.1007/978-3-642-20671-9_85",
+        "pages": "821-837"
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1007/978-3-642-20671-9_85",
+        "https://doi.org/10.1007/978-3-642-20671-9_85"
+      ]
+    },
+    "li2020posteriorierrorestimatesfinite": {
+      "fields": {
+        "title": "A posteriori error estimates of finite element methods by preconditioning",
+        "author": "Yuwen Li and Ludmil Zikatanov",
+        "year": "2021",
+        "doi": "10.1016/j.camwa.2020.08.001",
+        "url": "https://doi.org/10.1016/j.camwa.2020.08.001",
+        "pages": "192-201",
+        "volume": "91"
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1016/j.camwa.2020.08.001",
+        "https://doi.org/10.1016/j.camwa.2020.08.001"
+      ]
+    },
+    "jha2023residualbasederrorcorrectoroperator": {
+      "fields": {
+        "title": "Residual-based error corrector operator to enhance accuracy and reliability of neural operator surrogates of nonlinear variational boundary-value problems",
+        "author": "Prashant K. Jha",
+        "year": "2024",
+        "doi": "10.1016/j.cma.2023.116595",
+        "url": "https://doi.org/10.1016/j.cma.2023.116595",
+        "pages": "116595",
+        "volume": "419"
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.1016/j.cma.2023.116595",
+        "https://doi.org/10.1016/j.cma.2023.116595"
+      ]
+    },
+    "bell2023pyamg": {
+      "fields": {
+        "title": "PyAMG: Algebraic Multigrid Solvers in Python",
+        "author": "Nathan Bell and Luke N. Olson and Jacob Schroder and Ben Southworth",
+        "year": "2023",
+        "doi": "10.21105/joss.05495",
+        "url": "https://doi.org/10.21105/joss.05495",
+        "pages": "5495",
+        "volume": "8"
+      },
+      "primary_sources": [
+        "https://api.crossref.org/works/10.21105/joss.05495",
+        "https://doi.org/10.21105/joss.05495"
+      ]
+    },
+    "li2021fourier": {
+      "fields": {
+        "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+        "author": "Zongyi Li and Nikola Kovachki and Kamyar Azizzadenesheli and Burigede Liu and Kaushik Bhattacharya and Andrew Stuart and Anima Anandkumar",
+        "year": "2021",
+        "url": "https://arxiv.org/abs/2010.08895",
+        "eprint": "2010.08895"
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2010.08895",
+        "https://openreview.net/pdf/53c47f849d1cd4d21b865caf7d774e07a5c42aa4.pdf"
+      ],
+      "version_note": "ICLR 2021 paper and 2021 arXiv revision; first arXiv version was 2020."
+    },
+    "anwer2026pointwise": {
+      "fields": {
+        "title": "Pointwise Error Estimates for Numerical Physics-Informed Neural Networks",
+        "author": "Nivar Anwer and Marien Chenaud and José Alves and Frédéric Magoulès",
+        "year": "2026",
+        "url": "https://arxiv.org/abs/2607.03431",
+        "eprint": "2607.03431"
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/2607.03431"
+      ]
+    },
+    "ronneberger2015unet": {
+      "fields": {
+        "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "author": "Olaf Ronneberger and Philipp Fischer and Thomas Brox",
+        "year": "2015",
+        "url": "https://doi.org/10.1007/978-3-319-24574-4_28",
+        "doi": "10.1007/978-3-319-24574-4_28",
+        "volume": "9351",
+        "pages": "234--241"
+      },
+      "primary_sources": [
+        "https://arxiv.org/abs/1505.04597",
+        "https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28"
+      ]
+    }
+  }
+}

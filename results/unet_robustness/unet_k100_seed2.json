@@ -1,0 +1,29 @@
+{
+  "epochs": 200,
+  "in_ch": 3,
+  "normalization": {
+    "logmean": 0.8252878719049561,
+    "logstd": 1.766208093923491,
+    "umean": 0.018491051007617835,
+    "ustd": 0.015812892149629096
+  },
+  "seed": 2,
+  "source_sha256": {
+    "analysis/metrics.py": "02e318e0656fdf5743ce6e6bb146d6989c327e3751fe5af5133818cc801e7d44",
+    "data/generate_contrast.py": "87ddb565fbc57cb86027138df6bbd6bce927c692ad4762fd863df2d656996bc1",
+    "experiments/exp0_pilot_fno.py": "e3949012716ffecb93a7885287c9aa6bdb8c98d500ad9badbbc87d5834a7b95a",
+    "experiments/exp_unet_robustness.py": "a0d84af8c534efa9651817b55212fa1da396cc7fac446e6382261f0545961ec2",
+    "models/tiny_unet.py": "21e5a631f16714fae3bed5bba43f7382bd28852e0f32f36f7a4c7964bdf03f71",
+    "solver/assemble_fd.py": "71126dd84b02ac12590093eb2cbdf356f68fc3e16609a7f5e408bb26b76fd7df",
+    "solver/multigrid.py": "f6d71282050b9600ad9c12b9774bda1a5dabd502fda1843d2c83087daa73724a",
+    "solver/poisson.py": "69860694a1e9a0494879a932705d140e380e99a84f6116f300e27b44d2f2fe4f",
+    "solver/solve.py": "bf53292ca26cdd0c98d68628c912afc8012aeb15e4e9297315ffdd6259574b85"
+  },
+  "training_arrays_sha256": {
+    "a": "306587cabdafe05c2e075530a7535bf8d62a0650ea7e7856adcf0e332e4299fa",
+    "u": "412be73c53fea303917e64808eba9478fbcf7508b422b7c703f55ef96cd85eaa"
+  },
+  "training_count": 700,
+  "training_data_seed": 0,
+  "width": 16
+}

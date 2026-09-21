@@ -1,0 +1,8 @@
+build_submission_assets: PASS
+build_alternate_figure: PASS
+build_robustness_assets: PASS
+build_submission_assets_check: PASS
+build_alternate_figure_check: PASS
+build_robustness_assets_check: PASS
+PASS: Tables 1–2 and Figures 1–2 regenerated in 13.16s; numerical content unchanged; 6/6 figure files byte-identical.
+Outputs: tmp/fast_reproduction

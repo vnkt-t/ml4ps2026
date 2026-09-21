@@ -1,0 +1,2394 @@
+{
+  "config": {
+    "N": 32,
+    "arch": {
+      "in_ch": 3,
+      "modes": 12,
+      "n_layers": 3,
+      "width": 24
+    },
+    "bootstrap": 1000,
+    "checkpoint_dir": "results/checkpoints_longtrain",
+    "epochs": 240,
+    "kappas": [
+      100.0
+    ],
+    "ntest": 200,
+    "ntrain": 700,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "experiment": "exp_real_fno_multi_kappa",
+  "outputs": {
+    "abstention_figure": "figures/fig_fno_longtrain_kappa100_abstention.png",
+    "csv": "results/fno_longtrain_kappa100.csv",
+    "json": "results/fno_longtrain_kappa100.json",
+    "localization_figure": "figures/fig_fno_longtrain_kappa100_localization.png"
+  },
+  "per_kappa": {
+    "100.0": {
+      "abstention": {
+        "curves": {
+          "combined": [
+            {
+              "accepted_count": 80,
+              "accepted_high_error_rate": 0.1375,
+              "handoff_count": 0,
+              "handoff_rate": 0.0,
+              "high_error_miss_rate": 1.0,
+              "threshold": null,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 79,
+              "accepted_high_error_rate": 0.12658227848101267,
+              "handoff_count": 1,
+              "handoff_rate": 0.0125,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.2812206319045032,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 78,
+              "accepted_high_error_rate": 0.1282051282051282,
+              "handoff_count": 2,
+              "handoff_rate": 0.025,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.2761832518425299,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 77,
+              "accepted_high_error_rate": 0.12987012987012986,
+              "handoff_count": 3,
+              "handoff_rate": 0.0375,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.23451637291588656,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 76,
+              "accepted_high_error_rate": 0.11842105263157894,
+              "handoff_count": 4,
+              "handoff_rate": 0.05,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.21218807046924082,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 75,
+              "accepted_high_error_rate": 0.10666666666666667,
+              "handoff_count": 5,
+              "handoff_rate": 0.0625,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.2101752897700254,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 74,
+              "accepted_high_error_rate": 0.0945945945945946,
+              "handoff_count": 6,
+              "handoff_rate": 0.075,
+              "high_error_miss_rate": 0.6363636363636364,
+              "threshold": 0.18921808664648046,
+              "uncaught_high_error_count": 7,
+              "uncaught_high_error_rate": 0.0875
+            },
+            {
+              "accepted_count": 73,
+              "accepted_high_error_rate": 0.0821917808219178,
+              "handoff_count": 7,
+              "handoff_rate": 0.0875,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.18184810865597278,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 72,
+              "accepted_high_error_rate": 0.06944444444444445,
+              "handoff_count": 8,
+              "handoff_rate": 0.1,
+              "high_error_miss_rate": 0.45454545454545453,
+              "threshold": 0.15692335370411226,
+              "uncaught_high_error_count": 5,
+              "uncaught_high_error_rate": 0.0625
+            },
+            {
+              "accepted_count": 71,
+              "accepted_high_error_rate": 0.056338028169014086,
+              "handoff_count": 9,
+              "handoff_rate": 0.1125,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.15333324571594034,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 70,
+              "accepted_high_error_rate": 0.04285714285714286,
+              "handoff_count": 10,
+              "handoff_rate": 0.125,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.1518213662793137,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 69,
+              "accepted_high_error_rate": 0.043478260869565216,
+              "handoff_count": 11,
+              "handoff_rate": 0.1375,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.15177689681548387,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 68,
+              "accepted_high_error_rate": 0.029411764705882353,
+              "handoff_count": 12,
+              "handoff_rate": 0.15,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.14548521341110027,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 67,
+              "accepted_high_error_rate": 0.014925373134328358,
+              "handoff_count": 13,
+              "handoff_rate": 0.1625,
+              "high_error_miss_rate": 0.09090909090909091,
+              "threshold": 0.14437334928134646,
+              "uncaught_high_error_count": 1,
+              "uncaught_high_error_rate": 0.0125
+            },
+            {
+              "accepted_count": 66,
+              "accepted_high_error_rate": 0.015151515151515152,
+              "handoff_count": 14,
+              "handoff_rate": 0.175,
+              "high_error_miss_rate": 0.09090909090909091,
+              "threshold": 0.13516696903305125,
+              "uncaught_high_error_count": 1,
+              "uncaught_high_error_rate": 0.0125
+            },
+            {
+              "accepted_count": 65,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 15,
+              "handoff_rate": 0.1875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.13407248840513603,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 64,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 16,
+              "handoff_rate": 0.2,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.1319169714986533,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 63,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 17,
+              "handoff_rate": 0.2125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.12792911883335514,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 62,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 18,
+              "handoff_rate": 0.225,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.12292344081245676,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 61,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 19,
+              "handoff_rate": 0.2375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.12139040955569763,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 60,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 20,
+              "handoff_rate": 0.25,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.12133960330288991,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 59,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 21,
+              "handoff_rate": 0.2625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.1211503864812076,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 58,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 22,
+              "handoff_rate": 0.275,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11935169139731742,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 57,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 23,
+              "handoff_rate": 0.2875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11913942709357626,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 56,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 24,
+              "handoff_rate": 0.3,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11689109028937741,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 55,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 25,
+              "handoff_rate": 0.3125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11522275421547394,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 54,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 26,
+              "handoff_rate": 0.325,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11370538249124351,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 53,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 27,
+              "handoff_rate": 0.3375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11247596492812095,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 52,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 28,
+              "handoff_rate": 0.35,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.10952448593283481,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 51,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 29,
+              "handoff_rate": 0.3625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.10572108427423008,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 50,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 30,
+              "handoff_rate": 0.375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.1044171072147837,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 49,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 31,
+              "handoff_rate": 0.3875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.10301558663532928,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 48,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 32,
+              "handoff_rate": 0.4,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.10104778762985746,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 47,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 33,
+              "handoff_rate": 0.4125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.09928247549028622,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 46,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 34,
+              "handoff_rate": 0.425,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.0971369409593512,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 45,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 35,
+              "handoff_rate": 0.4375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.0955798092401645,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 44,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 36,
+              "handoff_rate": 0.45,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.09192775879359062,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 43,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 37,
+              "handoff_rate": 0.4625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.09033520487011212,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 42,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 38,
+              "handoff_rate": 0.475,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08667708106937982,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 41,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 39,
+              "handoff_rate": 0.4875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08467202397610137,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 40,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 40,
+              "handoff_rate": 0.5,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08446669991563507,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 39,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 41,
+              "handoff_rate": 0.5125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08255663729022453,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 38,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 42,
+              "handoff_rate": 0.525,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08053414298513442,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 37,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 43,
+              "handoff_rate": 0.5375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07709165254020096,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 36,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 44,
+              "handoff_rate": 0.55,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07703741090547592,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 35,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 45,
+              "handoff_rate": 0.5625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07637036634987902,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 34,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 46,
+              "handoff_rate": 0.575,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07308069986201955,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 33,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 47,
+              "handoff_rate": 0.5875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07299176633770993,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 32,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 48,
+              "handoff_rate": 0.6,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07281454477920946,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 31,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 49,
+              "handoff_rate": 0.6125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.0716449741142782,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 30,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 50,
+              "handoff_rate": 0.625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.07099236783184867,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 29,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 51,
+              "handoff_rate": 0.6375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06700810406459758,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 28,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 52,
+              "handoff_rate": 0.65,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06558401711344536,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 27,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 53,
+              "handoff_rate": 0.6625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06556847095316384,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 26,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 54,
+              "handoff_rate": 0.675,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06369402552158825,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 25,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 55,
+              "handoff_rate": 0.6875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06172768569515862,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 24,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 56,
+              "handoff_rate": 0.7,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06172768569515862,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 23,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 57,
+              "handoff_rate": 0.7125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.061613476601636574,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 22,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 58,
+              "handoff_rate": 0.725,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.057343323362382605,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 21,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 59,
+              "handoff_rate": 0.7375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.052510410137295224,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 20,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 60,
+              "handoff_rate": 0.75,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05138925024223428,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 19,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 61,
+              "handoff_rate": 0.7625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05068185792229632,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 18,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 62,
+              "handoff_rate": 0.775,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.050078249150662155,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 17,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 63,
+              "handoff_rate": 0.7875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.04850540184762681,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 16,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 64,
+              "handoff_rate": 0.8,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.047150251834643324,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 15,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 65,
+              "handoff_rate": 0.8125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.0467907803880129,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 14,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 66,
+              "handoff_rate": 0.825,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.046697012809492885,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 13,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 67,
+              "handoff_rate": 0.8375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.04507504926206104,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 12,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 68,
+              "handoff_rate": 0.85,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.04446705121831355,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 11,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 69,
+              "handoff_rate": 0.8625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.04344046501074322,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 10,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 70,
+              "handoff_rate": 0.875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.03576000701463758,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 9,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 71,
+              "handoff_rate": 0.8875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.03088992248987824,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 8,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 72,
+              "handoff_rate": 0.9,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.029070484280044006,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 7,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 73,
+              "handoff_rate": 0.9125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.028463884983022037,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 6,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 74,
+              "handoff_rate": 0.925,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026456755058485795,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 5,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 75,
+              "handoff_rate": 0.9375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026313349867058942,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 4,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 76,
+              "handoff_rate": 0.95,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026002131107848558,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 3,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 77,
+              "handoff_rate": 0.9625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026002131107848558,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 2,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 78,
+              "handoff_rate": 0.975,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026002131107848558,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 1,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 79,
+              "handoff_rate": 0.9875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.026002131107848558,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 0,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 80,
+              "handoff_rate": 1.0,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.024344894181711253,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            }
+          ],
+          "ensemble_only": [
+            {
+              "accepted_count": 80,
+              "accepted_high_error_rate": 0.1375,
+              "handoff_count": 0,
+              "handoff_rate": 0.0,
+              "high_error_miss_rate": 1.0,
+              "threshold": null,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 79,
+              "accepted_high_error_rate": 0.13924050632911392,
+              "handoff_count": 1,
+              "handoff_rate": 0.0125,
+              "high_error_miss_rate": 1.0,
+              "threshold": 0.18253851559434697,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 78,
+              "accepted_high_error_rate": 0.14102564102564102,
+              "handoff_count": 2,
+              "handoff_rate": 0.025,
+              "high_error_miss_rate": 1.0,
+              "threshold": 0.1752069261371511,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 77,
+              "accepted_high_error_rate": 0.14285714285714285,
+              "handoff_count": 3,
+              "handoff_rate": 0.0375,
+              "high_error_miss_rate": 1.0,
+              "threshold": 0.1593545543434284,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 76,
+              "accepted_high_error_rate": 0.14473684210526316,
+              "handoff_count": 4,
+              "handoff_rate": 0.05,
+              "high_error_miss_rate": 1.0,
+              "threshold": 0.15725766493226126,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 75,
+              "accepted_high_error_rate": 0.13333333333333333,
+              "handoff_count": 5,
+              "handoff_rate": 0.0625,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.15551802686419053,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 74,
+              "accepted_high_error_rate": 0.13513513513513514,
+              "handoff_count": 6,
+              "handoff_rate": 0.075,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.1503158478657345,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 73,
+              "accepted_high_error_rate": 0.136986301369863,
+              "handoff_count": 7,
+              "handoff_rate": 0.0875,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.15020505677128795,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 72,
+              "accepted_high_error_rate": 0.1388888888888889,
+              "handoff_count": 8,
+              "handoff_rate": 0.1,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.14879677094009483,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 71,
+              "accepted_high_error_rate": 0.14084507042253522,
+              "handoff_count": 9,
+              "handoff_rate": 0.1125,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.14823453875659864,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 70,
+              "accepted_high_error_rate": 0.12857142857142856,
+              "handoff_count": 10,
+              "handoff_rate": 0.125,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14823453875659864,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 69,
+              "accepted_high_error_rate": 0.13043478260869565,
+              "handoff_count": 11,
+              "handoff_rate": 0.1375,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14823453875659864,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 68,
+              "accepted_high_error_rate": 0.1323529411764706,
+              "handoff_count": 12,
+              "handoff_rate": 0.15,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14823453875659864,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 67,
+              "accepted_high_error_rate": 0.13432835820895522,
+              "handoff_count": 13,
+              "handoff_rate": 0.1625,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14823453875659864,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 66,
+              "accepted_high_error_rate": 0.13636363636363635,
+              "handoff_count": 14,
+              "handoff_rate": 0.175,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14798588997979337,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 65,
+              "accepted_high_error_rate": 0.13846153846153847,
+              "handoff_count": 15,
+              "handoff_rate": 0.1875,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.14569718197382842,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 64,
+              "accepted_high_error_rate": 0.125,
+              "handoff_count": 16,
+              "handoff_rate": 0.2,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.14164414376239065,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 63,
+              "accepted_high_error_rate": 0.12698412698412698,
+              "handoff_count": 17,
+              "handoff_rate": 0.2125,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.14164414376239065,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 62,
+              "accepted_high_error_rate": 0.12903225806451613,
+              "handoff_count": 18,
+              "handoff_rate": 0.225,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13952470394417218,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 61,
+              "accepted_high_error_rate": 0.13114754098360656,
+              "handoff_count": 19,
+              "handoff_rate": 0.2375,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13841384780207364,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 60,
+              "accepted_high_error_rate": 0.13333333333333333,
+              "handoff_count": 20,
+              "handoff_rate": 0.25,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13749610324364933,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 59,
+              "accepted_high_error_rate": 0.13559322033898305,
+              "handoff_count": 21,
+              "handoff_rate": 0.2625,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13528761127507083,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 58,
+              "accepted_high_error_rate": 0.13793103448275862,
+              "handoff_count": 22,
+              "handoff_rate": 0.275,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13528761127507083,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 57,
+              "accepted_high_error_rate": 0.14035087719298245,
+              "handoff_count": 23,
+              "handoff_rate": 0.2875,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13528761127507083,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 56,
+              "accepted_high_error_rate": 0.14285714285714285,
+              "handoff_count": 24,
+              "handoff_rate": 0.3,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13528761127507083,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 55,
+              "accepted_high_error_rate": 0.14545454545454545,
+              "handoff_count": 25,
+              "handoff_rate": 0.3125,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.1324514993361858,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 54,
+              "accepted_high_error_rate": 0.14814814814814814,
+              "handoff_count": 26,
+              "handoff_rate": 0.325,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13127874423940233,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 53,
+              "accepted_high_error_rate": 0.1509433962264151,
+              "handoff_count": 27,
+              "handoff_rate": 0.3375,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.12756428959052474,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 52,
+              "accepted_high_error_rate": 0.1346153846153846,
+              "handoff_count": 28,
+              "handoff_rate": 0.35,
+              "high_error_miss_rate": 0.6363636363636364,
+              "threshold": 0.12755862492583908,
+              "uncaught_high_error_count": 7,
+              "uncaught_high_error_rate": 0.0875
+            },
+            {
+              "accepted_count": 51,
+              "accepted_high_error_rate": 0.13725490196078433,
+              "handoff_count": 29,
+              "handoff_rate": 0.3625,
+              "high_error_miss_rate": 0.6363636363636364,
+              "threshold": 0.12413606573135151,
+              "uncaught_high_error_count": 7,
+              "uncaught_high_error_rate": 0.0875
+            },
+            {
+              "accepted_count": 50,
+              "accepted_high_error_rate": 0.14,
+              "handoff_count": 30,
+              "handoff_rate": 0.375,
+              "high_error_miss_rate": 0.6363636363636364,
+              "threshold": 0.12413606573135151,
+              "uncaught_high_error_count": 7,
+              "uncaught_high_error_rate": 0.0875
+            },
+            {
+              "accepted_count": 49,
+              "accepted_high_error_rate": 0.12244897959183673,
+              "handoff_count": 31,
+              "handoff_rate": 0.3875,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.12323329393358716,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 48,
+              "accepted_high_error_rate": 0.125,
+              "handoff_count": 32,
+              "handoff_rate": 0.4,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.12049966498795475,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 47,
+              "accepted_high_error_rate": 0.1276595744680851,
+              "handoff_count": 33,
+              "handoff_rate": 0.4125,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.11418793676609336,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 46,
+              "accepted_high_error_rate": 0.13043478260869565,
+              "handoff_count": 34,
+              "handoff_rate": 0.425,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.11300273789543824,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 45,
+              "accepted_high_error_rate": 0.13333333333333333,
+              "handoff_count": 35,
+              "handoff_rate": 0.4375,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.11077954597569202,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 44,
+              "accepted_high_error_rate": 0.13636363636363635,
+              "handoff_count": 36,
+              "handoff_rate": 0.45,
+              "high_error_miss_rate": 0.5454545454545454,
+              "threshold": 0.1078057970023359,
+              "uncaught_high_error_count": 6,
+              "uncaught_high_error_rate": 0.075
+            },
+            {
+              "accepted_count": 43,
+              "accepted_high_error_rate": 0.11627906976744186,
+              "handoff_count": 37,
+              "handoff_rate": 0.4625,
+              "high_error_miss_rate": 0.45454545454545453,
+              "threshold": 0.1078057970023359,
+              "uncaught_high_error_count": 5,
+              "uncaught_high_error_rate": 0.0625
+            },
+            {
+              "accepted_count": 42,
+              "accepted_high_error_rate": 0.09523809523809523,
+              "handoff_count": 38,
+              "handoff_rate": 0.475,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.101135354582687,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 41,
+              "accepted_high_error_rate": 0.0975609756097561,
+              "handoff_count": 39,
+              "handoff_rate": 0.4875,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.09773373488573668,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 40,
+              "accepted_high_error_rate": 0.1,
+              "handoff_count": 40,
+              "handoff_rate": 0.5,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.09773373488573668,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 39,
+              "accepted_high_error_rate": 0.10256410256410256,
+              "handoff_count": 41,
+              "handoff_rate": 0.5125,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.09667475870141652,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 38,
+              "accepted_high_error_rate": 0.10526315789473684,
+              "handoff_count": 42,
+              "handoff_rate": 0.525,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.09330143404171105,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 37,
+              "accepted_high_error_rate": 0.10810810810810811,
+              "handoff_count": 43,
+              "handoff_rate": 0.5375,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.0919746733543434,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 36,
+              "accepted_high_error_rate": 0.1111111111111111,
+              "handoff_count": 44,
+              "handoff_rate": 0.55,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.08853190805060537,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            },
+            {
+              "accepted_count": 35,
+              "accepted_high_error_rate": 0.08571428571428572,
+              "handoff_count": 45,
+              "handoff_rate": 0.5625,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.08593437692981666,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 34,
+              "accepted_high_error_rate": 0.08823529411764706,
+              "handoff_count": 46,
+              "handoff_rate": 0.575,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.08256451317309861,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 33,
+              "accepted_high_error_rate": 0.09090909090909091,
+              "handoff_count": 47,
+              "handoff_rate": 0.5875,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.08090078070110024,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 32,
+              "accepted_high_error_rate": 0.09375,
+              "handoff_count": 48,
+              "handoff_rate": 0.6,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.07593030886438455,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 31,
+              "accepted_high_error_rate": 0.0967741935483871,
+              "handoff_count": 49,
+              "handoff_rate": 0.6125,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.07257433941751877,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 30,
+              "accepted_high_error_rate": 0.1,
+              "handoff_count": 50,
+              "handoff_rate": 0.625,
+              "high_error_miss_rate": 0.2727272727272727,
+              "threshold": 0.07162948068121726,
+              "uncaught_high_error_count": 3,
+              "uncaught_high_error_rate": 0.0375
+            },
+            {
+              "accepted_count": 29,
+              "accepted_high_error_rate": 0.06896551724137931,
+              "handoff_count": 51,
+              "handoff_rate": 0.6375,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.0713239154790192,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 28,
+              "accepted_high_error_rate": 0.07142857142857142,
+              "handoff_count": 52,
+              "handoff_rate": 0.65,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.0713239154790192,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 27,
+              "accepted_high_error_rate": 0.07407407407407407,
+              "handoff_count": 53,
+              "handoff_rate": 0.6625,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 26,
+              "accepted_high_error_rate": 0.07692307692307693,
+              "handoff_count": 54,
+              "handoff_rate": 0.675,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 25,
+              "accepted_high_error_rate": 0.08,
+              "handoff_count": 55,
+              "handoff_rate": 0.6875,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 24,
+              "accepted_high_error_rate": 0.08333333333333333,
+              "handoff_count": 56,
+              "handoff_rate": 0.7,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 23,
+              "accepted_high_error_rate": 0.08695652173913043,
+              "handoff_count": 57,
+              "handoff_rate": 0.7125,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 22,
+              "accepted_high_error_rate": 0.09090909090909091,
+              "handoff_count": 58,
+              "handoff_rate": 0.725,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 21,
+              "accepted_high_error_rate": 0.09523809523809523,
+              "handoff_count": 59,
+              "handoff_rate": 0.7375,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 20,
+              "accepted_high_error_rate": 0.1,
+              "handoff_count": 60,
+              "handoff_rate": 0.75,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06772491263294773,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 19,
+              "accepted_high_error_rate": 0.10526315789473684,
+              "handoff_count": 61,
+              "handoff_rate": 0.7625,
+              "high_error_miss_rate": 0.18181818181818182,
+              "threshold": 0.06501224791083396,
+              "uncaught_high_error_count": 2,
+              "uncaught_high_error_rate": 0.025
+            },
+            {
+              "accepted_count": 18,
+              "accepted_high_error_rate": 0.05555555555555555,
+              "handoff_count": 62,
+              "handoff_rate": 0.775,
+              "high_error_miss_rate": 0.09090909090909091,
+              "threshold": 0.06433572980802892,
+              "uncaught_high_error_count": 1,
+              "uncaught_high_error_rate": 0.0125
+            },
+            {
+              "accepted_count": 17,
+              "accepted_high_error_rate": 0.058823529411764705,
+              "handoff_count": 63,
+              "handoff_rate": 0.7875,
+              "high_error_miss_rate": 0.09090909090909091,
+              "threshold": 0.06377279021785133,
+              "uncaught_high_error_count": 1,
+              "uncaught_high_error_rate": 0.0125
+            },
+            {
+              "accepted_count": 16,
+              "accepted_high_error_rate": 0.0625,
+              "handoff_count": 64,
+              "handoff_rate": 0.8,
+              "high_error_miss_rate": 0.09090909090909091,
+              "threshold": 0.06319037012006248,
+              "uncaught_high_error_count": 1,
+              "uncaught_high_error_rate": 0.0125
+            },
+            {
+              "accepted_count": 15,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 65,
+              "handoff_rate": 0.8125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06319037012006248,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 14,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 66,
+              "handoff_rate": 0.825,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06134016103793745,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 13,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 67,
+              "handoff_rate": 0.8375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06134016103793745,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 12,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 68,
+              "handoff_rate": 0.85,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06134016103793745,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 11,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 69,
+              "handoff_rate": 0.8625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.06134016103793745,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 10,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 70,
+              "handoff_rate": 0.875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.060187226363076045,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 9,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 71,
+              "handoff_rate": 0.8875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.057652850516348504,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 8,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 72,
+              "handoff_rate": 0.9,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.057652850516348504,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 7,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 73,
+              "handoff_rate": 0.9125,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05582968385074357,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 6,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 74,
+              "handoff_rate": 0.925,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05273802598186698,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 5,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 75,
+              "handoff_rate": 0.9375,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05189378898495521,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 4,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 76,
+              "handoff_rate": 0.95,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05189378898495521,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 3,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 77,
+              "handoff_rate": 0.9625,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05189378898495521,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 2,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 78,
+              "handoff_rate": 0.975,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05189378898495521,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 1,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 79,
+              "handoff_rate": 0.9875,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.05189378898495521,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 0,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 80,
+              "handoff_rate": 1.0,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.048769562451056694,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            }
+          ]
+        },
+        "feature_sets": {
+          "combined": [
+            "ens_sigma_mean",
+            "ens_sigma_std",
+            "ens_sigma_p90",
+            "ens_sigma_p95",
+            "ens_sigma_max",
+            "ens_sigma_l2",
+            "res_abs_mean",
+            "res_abs_std",
+            "res_abs_p90",
+            "res_abs_p95",
+            "res_abs_max",
+            "res_abs_l2",
+            "res_smooth_mean",
+            "res_smooth_std",
+            "res_smooth_p90",
+            "res_smooth_p95",
+            "res_smooth_max",
+            "res_smooth_l2",
+            "ladder_jac20_mean",
+            "ladder_jac20_std",
+            "ladder_jac20_p90",
+            "ladder_jac20_p95",
+            "ladder_jac20_max",
+            "ladder_jac20_l2",
+            "ladder_rung4_mean",
+            "ladder_rung4_std",
+            "ladder_rung4_p90",
+            "ladder_rung4_p95",
+            "ladder_rung4_max",
+            "ladder_rung4_l2",
+            "ladder_rung4_to_res_p95",
+            "ladder_jac20_to_res_p95"
+          ],
+          "ensemble_only": [
+            "ens_sigma_mean",
+            "ens_sigma_std",
+            "ens_sigma_p90",
+            "ens_sigma_p95",
+            "ens_sigma_max",
+            "ens_sigma_l2"
+          ]
+        },
+        "heldout_high_error_count": 11,
+        "heldout_high_error_rate": 0.1375,
+        "heldout_samples": 80,
+        "high_error_metric": "relative_l2_error",
+        "high_error_quantile_on_train": 0.85,
+        "high_error_threshold": 0.15843963127337782,
+        "operating_points": {
+          "combined": [
+            {
+              "accepted_count": 76,
+              "accepted_high_error_rate": 0.11842105263157894,
+              "handoff_count": 4,
+              "handoff_rate": 0.05,
+              "high_error_miss_rate": 0.8181818181818182,
+              "threshold": 0.21218807046924082,
+              "uncaught_high_error_count": 9,
+              "uncaught_high_error_rate": 0.1125
+            },
+            {
+              "accepted_count": 72,
+              "accepted_high_error_rate": 0.06944444444444445,
+              "handoff_count": 8,
+              "handoff_rate": 0.1,
+              "high_error_miss_rate": 0.45454545454545453,
+              "threshold": 0.15692335370411226,
+              "uncaught_high_error_count": 5,
+              "uncaught_high_error_rate": 0.0625
+            },
+            {
+              "accepted_count": 64,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 16,
+              "handoff_rate": 0.2,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.1319169714986533,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 56,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 24,
+              "handoff_rate": 0.3,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.11689109028937741,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            },
+            {
+              "accepted_count": 40,
+              "accepted_high_error_rate": 0.0,
+              "handoff_count": 40,
+              "handoff_rate": 0.5,
+              "high_error_miss_rate": 0.0,
+              "threshold": 0.08446669991563507,
+              "uncaught_high_error_count": 0,
+              "uncaught_high_error_rate": 0.0
+            }
+          ],
+          "ensemble_only": [
+            {
+              "accepted_count": 76,
+              "accepted_high_error_rate": 0.14473684210526316,
+              "handoff_count": 4,
+              "handoff_rate": 0.05,
+              "high_error_miss_rate": 1.0,
+              "threshold": 0.15725766493226126,
+              "uncaught_high_error_count": 11,
+              "uncaught_high_error_rate": 0.1375
+            },
+            {
+              "accepted_count": 72,
+              "accepted_high_error_rate": 0.1388888888888889,
+              "handoff_count": 8,
+              "handoff_rate": 0.1,
+              "high_error_miss_rate": 0.9090909090909091,
+              "threshold": 0.14879677094009483,
+              "uncaught_high_error_count": 10,
+              "uncaught_high_error_rate": 0.125
+            },
+            {
+              "accepted_count": 64,
+              "accepted_high_error_rate": 0.125,
+              "handoff_count": 16,
+              "handoff_rate": 0.2,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.14164414376239065,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 56,
+              "accepted_high_error_rate": 0.14285714285714285,
+              "handoff_count": 24,
+              "handoff_rate": 0.3,
+              "high_error_miss_rate": 0.7272727272727273,
+              "threshold": 0.13528761127507083,
+              "uncaught_high_error_count": 8,
+              "uncaught_high_error_rate": 0.1
+            },
+            {
+              "accepted_count": 40,
+              "accepted_high_error_rate": 0.1,
+              "handoff_count": 40,
+              "handoff_rate": 0.5,
+              "high_error_miss_rate": 0.36363636363636365,
+              "threshold": 0.09773373488573668,
+              "uncaught_high_error_count": 4,
+              "uncaught_high_error_rate": 0.05
+            }
+          ]
+        },
+        "risk_fit_diagnostics": {
+          "combined": {
+            "mae": 0.031926655500502374,
+            "r2": 0.5299028792112095
+          },
+          "ensemble_only": {
+            "mae": 0.05936833487043216,
+            "r2": -0.1838702189269683
+          }
+        },
+        "risk_model": "gbr",
+        "summary": {
+          "combined": {
+            "area_under_handoff_uncaught_curve": 0.013203125,
+            "area_under_handoff_uncaught_curve_ci95_high": 0.03094335937499999,
+            "area_under_handoff_uncaught_curve_ci95_low": 0.003984375,
+            "handoff_rate_for_half_high_errors_caught": 0.1,
+            "handoff_rate_for_half_high_errors_caught_ci95_high": 0.15,
+            "handoff_rate_for_half_high_errors_caught_ci95_low": 0.05,
+            "handoff_rate_for_zero_uncaught_high_errors": 0.1875,
+            "handoff_rate_for_zero_uncaught_high_errors_ci95_high": 0.275,
+            "handoff_rate_for_zero_uncaught_high_errors_ci95_low": 0.1,
+            "high_error_count": 11,
+            "initial_uncaught_high_error_rate": 0.1375
+          },
+          "ensemble_only": {
+            "area_under_handoff_uncaught_curve": 0.059765625,
+            "area_under_handoff_uncaught_curve_ci95_high": 0.10062890625,
+            "area_under_handoff_uncaught_curve_ci95_low": 0.026708984375,
+            "handoff_rate_for_half_high_errors_caught": 0.4625,
+            "handoff_rate_for_half_high_errors_caught_ci95_high": 0.625,
+            "handoff_rate_for_half_high_errors_caught_ci95_low": 0.2125,
+            "handoff_rate_for_zero_uncaught_high_errors": 0.8125,
+            "handoff_rate_for_zero_uncaught_high_errors_ci95_high": 0.8875,
+            "handoff_rate_for_zero_uncaught_high_errors_ci95_low": 0.55,
+            "high_error_count": 11,
+            "initial_uncaught_high_error_rate": 0.1375
+          }
+        },
+        "summary_ci": {
+          "combined": {
+            "area_under_handoff_uncaught_curve": {
+              "ci95_high": 0.03094335937499999,
+              "ci95_low": 0.003984375,
+              "mean": 0.013203125
+            },
+            "handoff_rate_for_half_high_errors_caught": {
+              "ci95_high": 0.15,
+              "ci95_low": 0.05,
+              "mean": 0.1
+            },
+            "handoff_rate_for_zero_uncaught_high_errors": {
+              "ci95_high": 0.275,
+              "ci95_low": 0.1,
+              "mean": 0.1875
+            }
+          },
+          "ensemble_only": {
+            "area_under_handoff_uncaught_curve": {
+              "ci95_high": 0.10062890625,
+              "ci95_low": 0.026708984375,
+              "mean": 0.059765625
+            },
+            "handoff_rate_for_half_high_errors_caught": {
+              "ci95_high": 0.625,
+              "ci95_low": 0.2125,
+              "mean": 0.4625
+            },
+            "handoff_rate_for_zero_uncaught_high_errors": {
+              "ci95_high": 0.8875,
+              "ci95_low": 0.55,
+              "mean": 0.8125
+            }
+          }
+        },
+        "train_samples": 120
+      },
+      "checkpoint_paths": [
+        "results/checkpoints_longtrain/fno_kappa100_seed0.pt",
+        "results/checkpoints_longtrain/fno_kappa100_seed1.pt",
+        "results/checkpoints_longtrain/fno_kappa100_seed2.pt"
+      ],
+      "family": "contrast",
+      "grid_N": 32,
+      "kappa": 100.0,
+      "load_ensemble_max_abs": 0.0,
+      "n_test": 200,
+      "n_train": 700,
+      "normalization": {
+        "logmean": 0.8252878719049561,
+        "logstd": 1.766208093923491,
+        "umean": 0.018491051007617835,
+        "ustd": 0.015812892149629096
+      },
+      "rel_l2": {
+        "ci95_high": 0.10259668063675093,
+        "ci95_low": 0.0810027067657149,
+        "mean": 0.09182446349973429
+      },
+      "roundtrip_max_abs": 0.0,
+      "rungs": {
+        "0_sigma_ens": {
+          "auroc": {
+            "ci95_high": 0.7380670585475897,
+            "ci95_low": 0.7169386233304871,
+            "mean": 0.7268567302320187
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.1858304610994181,
+            "ci95_low": 0.1746841866178131,
+            "mean": 0.18032439973375325
+          },
+          "matvecs": 0.0,
+          "matvecs_with_setup": 0.0,
+          "spearman": {
+            "ci95_high": 0.4149335941453468,
+            "ci95_low": 0.3824066333774408,
+            "mean": 0.39913883048869897
+          },
+          "time_s": {
+            "ci95_high": 2.2675021176326026e-06,
+            "ci95_low": 2.068988740802524e-06,
+            "mean": 2.1487899982730597e-06
+          },
+          "top10_overlap": {
+            "ci95_high": 0.28835072815533974,
+            "ci95_low": 0.2620849514563106,
+            "mean": 0.27490291262135913
+          }
+        },
+        "1_abs_r": {
+          "auroc": {
+            "ci95_high": 0.7005369019006356,
+            "ci95_low": 0.6750646142331573,
+            "mean": 0.6880177729989565
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.17090607890089332,
+            "ci95_low": 0.1571454214630749,
+            "mean": 0.16370283582152376
+          },
+          "matvecs": 1.0,
+          "matvecs_with_setup": 1.0,
+          "spearman": {
+            "ci95_high": 0.24792016422678545,
+            "ci95_low": 0.21139031283387946,
+            "mean": 0.2294282999025463
+          },
+          "time_s": {
+            "ci95_high": 2.7560487630466924e-05,
+            "ci95_low": 2.5630383871998675e-05,
+            "mean": 2.6531045001547682e-05
+          },
+          "top10_overlap": {
+            "ci95_high": 0.2786432038834951,
+            "ci95_low": 0.24271844660194172,
+            "mean": 0.2603883495145631
+          }
+        },
+        "2_smooth_abs_r": {
+          "auroc": {
+            "ci95_high": 0.776352777162856,
+            "ci95_low": 0.741349527740004,
+            "mean": 0.7587933651687169
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.1911121944649797,
+            "ci95_low": 0.1747080580825196,
+            "mean": 0.18281820131839524
+          },
+          "matvecs": 1.0,
+          "matvecs_with_setup": 1.0,
+          "spearman": {
+            "ci95_high": 0.3663708490582643,
+            "ci95_low": 0.30886294189435665,
+            "mean": 0.3378263541815678
+          },
+          "time_s": {
+            "ci95_high": 0.00015676468063750802,
+            "ci95_low": 0.00011568946239364663,
+            "mean": 0.00012976315001424156
+          },
+          "top10_overlap": {
+            "ci95_high": 0.3292257281553398,
+            "ci95_low": 0.2856165048543689,
+            "mean": 0.30752427184466014
+          }
+        },
+        "3a_jacobi_1": {
+          "auroc": {
+            "ci95_high": 0.6892361075972718,
+            "ci95_low": 0.677369272002783,
+            "mean": 0.6836503694801976
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.18551863034079114,
+            "ci95_low": 0.17812042996456606,
+            "mean": 0.1818435281181332
+          },
+          "matvecs": 2.0,
+          "matvecs_with_setup": 2.0,
+          "spearman": {
+            "ci95_high": 0.2983986528536496,
+            "ci95_low": 0.2798112112951282,
+            "mean": 0.2889316849094306
+          },
+          "time_s": {
+            "ci95_high": 8.36283377689142e-05,
+            "ci95_low": 7.918787411654194e-05,
+            "mean": 8.11854449978e-05
+          },
+          "top10_overlap": {
+            "ci95_high": 0.3004429611650485,
+            "ci95_low": 0.2844162621359223,
+            "mean": 0.2927184466019417
+          }
+        },
+        "3b_jacobi_2": {
+          "auroc": {
+            "ci95_high": 0.7020531503325848,
+            "ci95_low": 0.6878391996879711,
+            "mean": 0.6951487408157027
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.19146094066845254,
+            "ci95_low": 0.18419172990422059,
+            "mean": 0.1879941346278907
+          },
+          "matvecs": 3.0,
+          "matvecs_with_setup": 3.0,
+          "spearman": {
+            "ci95_high": 0.3115321332480799,
+            "ci95_low": 0.29299104477309607,
+            "mean": 0.3023262434285816
+          },
+          "time_s": {
+            "ci95_high": 7.13858115002779e-05,
+            "ci95_low": 6.835880349817103e-05,
+            "mean": 6.977235499903145e-05
+          },
+          "top10_overlap": {
+            "ci95_high": 0.32160315533980577,
+            "ci95_low": 0.30300970873786404,
+            "mean": 0.3118446601941747
+          }
+        },
+        "3c_jacobi_5": {
+          "auroc": {
+            "ci95_high": 0.7414692332627051,
+            "ci95_low": 0.7245149360129871,
+            "mean": 0.7327143354100124
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.2079517494313233,
+            "ci95_low": 0.19921379714086435,
+            "mean": 0.20363207753522616
+          },
+          "matvecs": 6.0,
+          "matvecs_with_setup": 6.0,
+          "spearman": {
+            "ci95_high": 0.3702966840656515,
+            "ci95_low": 0.3491185422124222,
+            "mean": 0.36001232146529216
+          },
+          "time_s": {
+            "ci95_high": 9.435717814994859e-05,
+            "ci95_low": 9.13886517589333e-05,
+            "mean": 9.285357001090233e-05
+          },
+          "top10_overlap": {
+            "ci95_high": 0.3719915048543689,
+            "ci95_low": 0.34912499999999996,
+            "mean": 0.36024271844660194
+          }
+        },
+        "3d_jacobi_10": {
+          "auroc": {
+            "ci95_high": 0.784886730073896,
+            "ci95_low": 0.7627829989036822,
+            "mean": 0.7738583536257551
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.22301905822198576,
+            "ci95_low": 0.21270632698768335,
+            "mean": 0.21788817595050275
+          },
+          "matvecs": 11.0,
+          "matvecs_with_setup": 11.0,
+          "spearman": {
+            "ci95_high": 0.4360599629938621,
+            "ci95_low": 0.41037910031219826,
+            "mean": 0.42326020162407907
+          },
+          "time_s": {
+            "ci95_high": 0.00013673315401820218,
+            "ci95_low": 0.00013226115150848726,
+            "mean": 0.00013437495500738804
+          },
+          "top10_overlap": {
+            "ci95_high": 0.42524393203883487,
+            "ci95_low": 0.3932997572815535,
+            "mean": 0.4091747572815534
+          }
+        },
+        "3e_jacobi_20": {
+          "auroc": {
+            "ci95_high": 0.8286942630424928,
+            "ci95_low": 0.8021834303152967,
+            "mean": 0.8156333343874852
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.24051002291436308,
+            "ci95_low": 0.2273848213936313,
+            "mean": 0.23371880748253587
+          },
+          "matvecs": 21.0,
+          "matvecs_with_setup": 21.0,
+          "spearman": {
+            "ci95_high": 0.5173734166038955,
+            "ci95_low": 0.48833045532217834,
+            "mean": 0.5029156538337743
+          },
+          "time_s": {
+            "ci95_high": 0.00022351458099711862,
+            "ci95_low": 0.0002152054186326495,
+            "mean": 0.00021888399500767265
+          },
+          "top10_overlap": {
+            "ci95_high": 0.48481310679611644,
+            "ci95_low": 0.4463009708737864,
+            "mean": 0.46519417475728153
+          }
+        },
+        "3f_gs_1": {
+          "auroc": {
+            "ci95_high": 0.7002892645183054,
+            "ci95_low": 0.6869923178689268,
+            "mean": 0.6935068994233791
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.19041823094668922,
+            "ci95_low": 0.18329875523663677,
+            "mean": 0.18684621679720562
+          },
+          "matvecs": 2.0,
+          "matvecs_with_setup": 2.0,
+          "spearman": {
+            "ci95_high": 0.31075552657959904,
+            "ci95_low": 0.292868665546657,
+            "mean": 0.3014779319366461
+          },
+          "time_s": {
+            "ci95_high": 0.0015772559162466847,
+            "ci95_low": 0.0015484796241329092,
+            "mean": 0.001562038305007718
+          },
+          "top10_overlap": {
+            "ci95_high": 0.3173337378640776,
+            "ci95_low": 0.2986395631067961,
+            "mean": 0.30830097087378633
+          }
+        },
+        "3g_gs_5": {
+          "auroc": {
+            "ci95_high": 0.781814535171774,
+            "ci95_low": 0.7602863260702276,
+            "mean": 0.7715618839800554
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.22248392288203891,
+            "ci95_low": 0.2119922303123565,
+            "mean": 0.21721270319994537
+          },
+          "matvecs": 6.0,
+          "matvecs_with_setup": 6.0,
+          "spearman": {
+            "ci95_high": 0.4319274966863511,
+            "ci95_low": 0.40645634732376745,
+            "mean": 0.4193804042651634
+          },
+          "time_s": {
+            "ci95_high": 0.007682983218109428,
+            "ci95_low": 0.007524154272113947,
+            "mean": 0.0075905822849904325
+          },
+          "top10_overlap": {
+            "ci95_high": 0.42203883495145633,
+            "ci95_low": 0.3917415048543689,
+            "mean": 0.406747572815534
+          }
+        },
+        "3h_cg_5": {
+          "auroc": {
+            "ci95_high": 0.7116762818485607,
+            "ci95_low": 0.6872573158133309,
+            "mean": 0.6994443038908743
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.17715769254611094,
+            "ci95_low": 0.1640467945006265,
+            "mean": 0.1705880342054548
+          },
+          "matvecs": 6.0,
+          "matvecs_with_setup": 6.0,
+          "spearman": {
+            "ci95_high": 0.26389723531321524,
+            "ci95_low": 0.2320269572377244,
+            "mean": 0.24814348725502466
+          },
+          "time_s": {
+            "ci95_high": 0.0003863831909952182,
+            "ci95_low": 0.00037073579937103315,
+            "mean": 0.0003783612999950492
+          },
+          "top10_overlap": {
+            "ci95_high": 0.29335194174757273,
+            "ci95_low": 0.2594611650485436,
+            "mean": 0.2766990291262135
+          }
+        },
+        "3i_cg_10": {
+          "auroc": {
+            "ci95_high": 0.7313655218578371,
+            "ci95_low": 0.7100953480282091,
+            "mean": 0.7210381813773548
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.1957799929986089,
+            "ci95_low": 0.18364827667975925,
+            "mean": 0.18966724524076384
+          },
+          "matvecs": 11.0,
+          "matvecs_with_setup": 11.0,
+          "spearman": {
+            "ci95_high": 0.2982905900614003,
+            "ci95_low": 0.2716417807286451,
+            "mean": 0.2847461437061905
+          },
+          "time_s": {
+            "ci95_high": 0.00033664578438893504,
+            "ci95_low": 0.0003221386572542144,
+            "mean": 0.0003289121100090142
+          },
+          "top10_overlap": {
+            "ci95_high": 0.3405351941747572,
+            "ci95_low": 0.31062985436893203,
+            "mean": 0.32567961165048537
+          }
+        },
+        "3j_cg_20": {
+          "auroc": {
+            "ci95_high": 0.7615260454550246,
+            "ci95_low": 0.7406343476908805,
+            "mean": 0.7512217619092797
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.22114251531884604,
+            "ci95_low": 0.20941013693333174,
+            "mean": 0.21507290319515235
+          },
+          "matvecs": 21.0,
+          "matvecs_with_setup": 21.0,
+          "spearman": {
+            "ci95_high": 0.34903206031427697,
+            "ci95_low": 0.32298611952856776,
+            "mean": 0.3367473811556756
+          },
+          "time_s": {
+            "ci95_high": 0.0005353312602692881,
+            "ci95_low": 0.0005198271812643895,
+            "mean": 0.0005273560200134852
+          },
+          "top10_overlap": {
+            "ci95_high": 0.4158252427184466,
+            "ci95_low": 0.38674757281553396,
+            "mean": 0.4016019417475728
+          }
+        },
+        "4_vcycle": {
+          "auroc": {
+            "ci95_high": 0.9753557011163466,
+            "ci95_low": 0.9570802064556255,
+            "mean": 0.9667449901436808
+          },
+          "backend": "pyamg_smoothed_aggregation",
+          "error_capture_top10": {
+            "ci95_high": 0.3174340147326204,
+            "ci95_low": 0.30230161472343164,
+            "mean": 0.30948562874877955
+          },
+          "matvecs": 3.642628205128205,
+          "matvecs_with_setup": 988.939405195151,
+          "spearman": {
+            "ci95_high": 0.92659138831271,
+            "ci95_low": 0.8959161181832709,
+            "mean": 0.911767216836689
+          },
+          "time_s": {
+            "ci95_high": 0.005861589587400061,
+            "ci95_low": 0.005676933898297847,
+            "mean": 0.005764297315022304
+          },
+          "top10_overlap": {
+            "ci95_high": 0.8321395631067963,
+            "ci95_low": 0.789270631067961,
+            "mean": 0.8118932038834952
+          }
+        },
+        "5_oracle": {
+          "auroc": {
+            "ci95_high": 1.0,
+            "ci95_low": 1.0,
+            "mean": 1.0
+          },
+          "backend": "",
+          "error_capture_top10": {
+            "ci95_high": 0.3361711177450808,
+            "ci95_low": 0.3210793845046675,
+            "mean": 0.3286252754701425
+          },
+          "matvecs": 1.0,
+          "matvecs_with_setup": 269.5063207145573,
+          "spearman": {
+            "ci95_high": 1.0,
+            "ci95_low": 1.0,
+            "mean": 1.0
+          },
+          "time_s": {
+            "ci95_high": 0.0017006124495084975,
+            "ci95_low": 0.0016242693498853668,
+            "mean": 0.0016557672550004555
+          },
+          "top10_overlap": {
+            "ci95_high": 1.0,
+            "ci95_low": 1.0,
+            "mean": 1.0
+          }
+        }
+      },
+      "same_A_residual_identity_max_abs": 9.060785975678609e-15,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "wall_time_s": 1838.0202288627625
+    }
+  },
+  "smoke": false,
+  "summary_table": [
+    {
+      "abst_area_combined": 0.013203125,
+      "abst_area_ensemble_only": 0.059765625,
+      "jacobi20_auroc": 0.8156333343874852,
+      "jacobi20_rho": 0.5029156538337743,
+      "kappa": 100.0,
+      "oracle_auroc": 1.0,
+      "oracle_rho": 1.0,
+      "raw_abs_r_auroc": 0.6880177729989565,
+      "raw_abs_r_rho": 0.2294282999025463,
+      "rel_l2_mean": 0.09182446349973429,
+      "rung4_auroc": 0.9667449901436808,
+      "rung4_rho": 0.911767216836689
+    }
+  ]
+}

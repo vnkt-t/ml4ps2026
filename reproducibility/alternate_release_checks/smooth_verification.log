@@ -1,0 +1,12 @@
+verified all 700 training draws
+verified all 200 test draws
+independent input/normalization pipeline reproduced every checkpoint prediction exactly
+independent numerical checks 25/200
+independent numerical checks 50/200
+independent numerical checks 75/200
+independent numerical checks 100/200
+independent numerical checks 125/200
+independent numerical checks 150/200
+independent numerical checks 175/200
+independent numerical checks 200/200
+PASS: 47700 executed assertions; no fields subsampled; receipt results/smooth_robustness/verification.json
